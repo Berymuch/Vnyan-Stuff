@@ -1,2 +1,2 @@
 # Vnyan-Stuff
-Various node graphs created for Vnyan by Suvidriel
+Various assets I've created for the Vnyan application by Suvidriel
