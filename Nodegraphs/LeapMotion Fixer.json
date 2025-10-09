@@ -1,0 +1,807 @@
+{
+    "graphName": "Leap Motion Fixer",
+    "graphIsActive": true,
+    "nodes": [
+        {
+            "id": "822acf07-4cdf-4c29-960d-2c98a7a19c21",
+            "values": [
+                {
+                    "key": "hand",
+                    "value": "0"
+                },
+                {
+                    "key": "status",
+                    "value": "0"
+                }
+            ],
+            "posX": 593.839111328125,
+            "posY": -187.84048461914063,
+            "path": "Nodes/LeapTrackingStatusNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "489da6e2-da6b-4eaf-b411-e8489ef1383a638905386226088472"
+            ],
+            "headerColor": 3,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e77d58b4-6375-4eda-9742-005fcba60f54",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackL"
+                },
+                {
+                    "key": "value1",
+                    "value": "[LZ_LeapFixer_LeapStatusTrackL]"
+                },
+                {
+                    "key": "value2",
+                    "value": "1"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 1349.1729736328125,
+            "posY": -400.8399658203125,
+            "path": "Nodes/ParamOpNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [
+                "b64d0b66-06f6-488a-8784-610a91bf54d4638905386226093619"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3,
+            "inputValueSocketIds": [
+                "4fdac605-f3f6-4f62-bb2d-a61db127ce2c638905386226093619",
+                "e23c30e5-1419-4bed-856c-cdba7a1abd4e638905386226093619",
+                "40238faf-62d5-497c-a09e-6c584d32ee2b638905386226093619"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "4adae165-f17c-4ccf-8442-71b1cc83f41f",
+            "values": [
+                {
+                    "key": "hand",
+                    "value": "0"
+                },
+                {
+                    "key": "status",
+                    "value": "1"
+                }
+            ],
+            "posX": 585.83935546875,
+            "posY": -337.50738525390627,
+            "path": "Nodes/LeapTrackingStatusNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "6989c239-148b-4eeb-9064-9e9bc03e3257638905386226098777"
+            ],
+            "headerColor": 3,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "dced1b07-02e5-4dd8-8df4-5d13f27794d1",
+            "values": [
+                {
+                    "key": "timerName",
+                    "value": "LeapStatusWindow"
+                }
+            ],
+            "posX": -213.9949188232422,
+            "posY": -356.00213623046877,
+            "path": "Nodes/TimerNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "c13d3536-a344-48a2-b811-f1a7f76b2a12638905386465927997"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "c964c599-80e6-4beb-8ccb-c685e33537e6",
+            "values": [
+                {
+                    "key": "timerName",
+                    "value": "LeapStatusWindow"
+                },
+                {
+                    "key": "seconds",
+                    "value": "200"
+                }
+            ],
+            "posX": 70.33799743652344,
+            "posY": -221.33572387695313,
+            "path": "Nodes/SetTimerNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [
+                "00322456-6fdd-4a4f-a816-dc8fabe4f9fd638905386480850913"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "aa88921d-e4c0-449f-bd5c-6d53016ba527638905386480850913",
+                "d01f4ece-c136-4cc9-973c-fb75a9491d78638905386480850913"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "12718b14-ce4a-45d8-b95a-3b96a30c26a9",
+            "values": [
+                {
+                    "key": "pname",
+                    "value": "LZ_LeapFixer_LeapStatusTrackL"
+                },
+                {
+                    "key": "pvalue",
+                    "value": "7"
+                }
+            ],
+            "posX": 1068.3345947265625,
+            "posY": -287.3342590332031,
+            "path": "Nodes/FilterParamNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [
+                "22f0e910-2b09-4ef8-b552-6760ad1eb2be638905386962299377"
+            ],
+            "outputSocketIds": [
+                "e65888ee-8146-48fe-ae64-f88001799daf638905386962299377",
+                "4950adb6-ddd6-4225-a28e-9aa2d61c1479638905386962299377",
+                "6f2462c1-271b-4d2a-b3f7-5c54769840cc638905386962299377"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "416e52bd-2b06-498b-bf37-44fec38685b4638905386962299377",
+                "ac136f0f-8230-4f6d-a124-7abf0057fed3638905386962299377"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "c04cf011-6b1c-4305-8a59-c0d57b6a1be6",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackL"
+                },
+                {
+                    "key": "value",
+                    "value": "6"
+                }
+            ],
+            "posX": 1342.0013427734375,
+            "posY": -189.33413696289063,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [
+                "3fdf132b-8d66-4441-b7a8-94589426ae22638905387181601558"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3,
+            "inputValueSocketIds": [
+                "a5782e80-ba8b-460c-9fda-d1370cce05f1638905387181601558",
+                "6aa0da76-d16a-454a-adc9-5bceae203c8c638905387181601558"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "c698cfaf-8b0f-4112-a404-21e0958a03c1",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackL"
+                },
+                {
+                    "key": "value1",
+                    "value": "[LZ_LeapFixer_LeapStatusTrackL]"
+                },
+                {
+                    "key": "value2",
+                    "value": "1"
+                },
+                {
+                    "key": "operation",
+                    "value": "1"
+                }
+            ],
+            "posX": 330.8432312011719,
+            "posY": -359.17449951171877,
+            "path": "Nodes/ParamOpNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [
+                "773d4885-f4dc-4698-a46b-dd4b1f6ff81b638905387510969810"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 3,
+            "inputValueSocketIds": [
+                "3ba3d02a-e4a6-4211-9465-64aa4a9e8155638905387510969810",
+                "22f3b209-8e4b-4ba9-9b0a-f5af5375bef5638905387510969810",
+                "3bc284e9-bdd3-43c0-beb5-c287edc1dc61638905387510969810"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "4ef1c713-71c0-42ed-9dc1-b62bc3c14f3b",
+            "values": [
+                {
+                    "key": "pname",
+                    "value": "LZ_LeapFixer_LeapStatusTrackL"
+                },
+                {
+                    "key": "pvalue",
+                    "value": "0"
+                }
+            ],
+            "posX": 86.00462341308594,
+            "posY": -398.00213623046877,
+            "path": "Nodes/FilterParamNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [
+                "2f4ad492-3a41-4423-ba96-5e658c7a7176638905387637147217"
+            ],
+            "outputSocketIds": [
+                "8742c6a3-69b8-44bd-8e1d-ab384d7a3954638905387637147217",
+                "546996b4-4445-4e7f-afa4-cf91a0f3d0a8638905387637147217",
+                "45037fb7-196b-43d2-b381-b8080aeabcd0638905387637147217"
+            ],
+            "headerColor": 3,
+            "inputValueSocketIds": [
+                "3d5556ed-bf52-409a-b81b-785a34ec546a638905387637147217",
+                "870b7a08-eabf-44c5-a0b9-47d43744cc1e638905387637147217"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "24296d60-d34e-4b27-90d6-073132b7342c",
+            "values": [],
+            "posX": -198.3285369873047,
+            "posY": -170.00115966796876,
+            "path": "Nodes/AppStartNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "76cb2c1e-4ee8-43be-b299-039d54a820c4638905632524564130"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "381b5301-2bee-48d2-bdca-48e66676a5d4",
+            "values": [
+                {
+                    "key": "pname",
+                    "value": "LZ_LeapFixer_LeapStatusTrackR"
+                },
+                {
+                    "key": "pvalue",
+                    "value": "7"
+                }
+            ],
+            "posX": 1085.002197265625,
+            "posY": -774.0029907226563,
+            "path": "Nodes/FilterParamNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [
+                "7bb54dab-1350-4e21-abbd-ccde3f32565e638906017206657709"
+            ],
+            "outputSocketIds": [
+                "c4064dad-9fc2-466e-a44e-803331a1e24b638906017206657709",
+                "78f70f6b-6f9a-4ae9-849c-f301ac6427d8638906017206657709",
+                "21d9541a-2ace-4b00-a266-fd3c5afc9a3f638906017206657709"
+            ],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "b999fa2a-264d-41c9-947f-a26c37b1bd5f638906017206657709",
+                "a977f530-6483-4d09-a739-6063a86ece32638906017206657709"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "c3bd6c20-d8b3-492e-946f-f2a977c933b2",
+            "values": [
+                {
+                    "key": "hand",
+                    "value": "1"
+                },
+                {
+                    "key": "status",
+                    "value": "0"
+                }
+            ],
+            "posX": 603.174072265625,
+            "posY": -676.8427124023438,
+            "path": "Nodes/LeapTrackingStatusNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "60593c53-9bae-4e70-8bff-52029081609c638906017206668124"
+            ],
+            "headerColor": 1,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "29f49531-b427-4bcd-b1a2-de3bc60a47a3",
+            "values": [
+                {
+                    "key": "hand",
+                    "value": "1"
+                },
+                {
+                    "key": "status",
+                    "value": "1"
+                }
+            ],
+            "posX": 604.507568359375,
+            "posY": -841.1761474609375,
+            "path": "Nodes/LeapTrackingStatusNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "a2dfe20f-24ff-455b-b7bc-b6197f39a28f638906017206678460"
+            ],
+            "headerColor": 1,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "a4ca8ded-50c1-42b9-86c4-58060fbafa1e",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackR"
+                },
+                {
+                    "key": "value",
+                    "value": "7"
+                }
+            ],
+            "posX": 1333.6689453125,
+            "posY": -667.6697387695313,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [
+                "2854aa3c-f0bc-4811-af99-d6e288c2a2d3638906017206678460"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 1,
+            "inputValueSocketIds": [
+                "de83cb0e-9b8b-474f-a9ab-3705c5404390638906017206678460",
+                "70a30225-5ac4-48df-9bc5-0f8274e085fa638906017206678460"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "6a99f722-26cc-4671-b44b-2e4c6a0fd710",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackR"
+                },
+                {
+                    "key": "value1",
+                    "value": "[LZ_LeapFixer_LeapStatusTrackR]"
+                },
+                {
+                    "key": "value2",
+                    "value": "1"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 1330.840576171875,
+            "posY": -890.84228515625,
+            "path": "Nodes/ParamOpNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [
+                "815f220c-481b-47d5-95b3-1cc44ab40cf0638906017206678460"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 1,
+            "inputValueSocketIds": [
+                "bd0ea234-5285-4f21-9c8e-41279440c047638906017206678460",
+                "5518cbae-0da1-416c-86ce-3f62583f0f6a638906017206678460",
+                "f65f8d61-32ae-41fd-8b80-c7017ad301c8638906017206678460"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "a4e46265-f8bb-434d-9d11-c9b5904eb78b",
+            "values": [
+                {
+                    "key": "pname",
+                    "value": "LZ_LeapFixer_LeapStatusTrackR"
+                },
+                {
+                    "key": "pvalue",
+                    "value": "0"
+                }
+            ],
+            "posX": 97.00462341308594,
+            "posY": -540.3355712890625,
+            "path": "Nodes/FilterParamNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [
+                "31374387-d349-4923-8e9d-40b8a4907dae638906017496742856"
+            ],
+            "outputSocketIds": [
+                "d5c83c8b-7027-4e14-8eb8-20039b02b587638906017496742856",
+                "01c8730f-0456-4037-b1a5-2b401c7aa5ad638906017496742856",
+                "0b82a44f-c6b4-4e6d-937e-dddf317b49e3638906017496742856"
+            ],
+            "headerColor": 1,
+            "inputValueSocketIds": [
+                "ef902ced-d95b-40f2-9b5c-20cb35b247bf638906017496742856",
+                "cd92681f-49e0-4548-9eb3-faf6282b5bf8638906017496742856"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "5375cefb-a915-4d8e-a6c2-d20bd18c1822",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapFixer_LeapStatusTrackR"
+                },
+                {
+                    "key": "value1",
+                    "value": "[LZ_LeapFixer_LeapStatusTrackR]"
+                },
+                {
+                    "key": "value2",
+                    "value": "1"
+                },
+                {
+                    "key": "operation",
+                    "value": "1"
+                }
+            ],
+            "posX": 336.8432312011719,
+            "posY": -619.174560546875,
+            "path": "Nodes/ParamOpNode",
+            "ownerBlockId": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "inputSocketIds": [
+                "2fd306bc-050e-4243-8657-792a6de8ce1a638906017496753137"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 1,
+            "inputValueSocketIds": [
+                "4daf249d-50f2-40ec-ab9f-4b929ea39635638906017496753137",
+                "7a35ddd8-d631-4f5f-adc7-e03160e14326638906017496753137",
+                "d7e96450-5f4d-4edd-8b74-e72b5084c8b4638906017496753137"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "fe4f3c5e-7f49-48e7-baee-12d3b06a4dd9",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapStatusL"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": 833.8397216796875,
+            "posY": -187.83975219726563,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [
+                "54fa14cb-896f-473e-9903-ee5c7cc40083638906235056820955"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "b038875c-07e3-47dd-8782-dabe23771eca638906235056820955",
+                "86ea8114-00e8-4aec-a42a-1638059dcc24638906235056820955"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ee9cc479-ba0c-42ab-aada-b8e176f837c1",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapStatusL"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 833.8397216796875,
+            "posY": -363.84002685546877,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "inputSocketIds": [
+                "089ea9e8-8694-40cd-b02c-86c6daa8ea14638906235154483921"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "bea8c4cb-d6d9-4475-86c2-0c3650981793638906235154483921",
+                "716f7b23-a8ab-4909-af6f-abb2a3856094638906235154483921"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e78a336b-14a3-4dfc-a65c-a435c6a59e7d",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapStatusR"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 843.8414916992188,
+            "posY": -847.8419189453125,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [
+                "d19388d8-28be-4cc6-9baf-3123f06eafee638906235264962771"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "51c804d7-0f17-4044-9d54-06107e040299638906235264962771",
+                "17e325fe-41b1-4405-a18e-b61a408b70e2638906235264962771"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "92d8d36f-b31f-4482-be56-1044b4317f99",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "LZ_LeapStatusR"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": 832.84130859375,
+            "posY": -664.8421020507813,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "inputSocketIds": [
+                "dffcc2f7-2c5d-491c-8599-b20dafe37f62638906235557086334"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "a8556c26-6226-4ee9-a4ac-dea2266c41ee638906235557086334",
+                "56e7a458-d933-463e-8cfe-6bbd74eaa0ac638906235557086334"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "e17e569e-6557-49dd-905a-b9bd47cbecbc",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "532"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "319"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=30>LZ's LeapMotion Fixer</size></size></size> \n\n<color=#ca6fde>by Lunazera</color>\nAugust 2025 (v1.0) - https://github.com/Lunazera/VNyan-Leap-Motion-Fixer\n\n▼——————————————— ▼\n\nThis graph manages the Leap Motion on/off events to tell the plugin the status of the left/right arms. Requires plugin, which you can find in the github link!\n\nEvery on/off signal adds an event, while the timer loop below subtracts events every time window. If the Number of events goes past your Sensitivity setting, then it'll enter the \"unstable\" state and pause your arm until it stabilizes."
+                }
+            ],
+            "posX": -304.0,
+            "posY": 242.0,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ce56b3d5-beee-4c90-aa28-2f60cdf592b6",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "350"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "183"
+                },
+                {
+                    "key": "message",
+                    "value": "There's also a currently unused \"Freeze State\", that you can access by setting \"LZ_LeapFixer_FreezeL\" or \"LZ_LeapFixer_FreezeR\" to 1 to activate.\n\nThis will put your arm back to it's previous rotations before leap motion turned on."
+                }
+            ],
+            "posX": 1095.66650390625,
+            "posY": 136.99993896484376,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "de974804-a315-45d9-b99c-6f760c2608c0",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "485"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "285"
+                },
+                {
+                    "key": "message",
+                    "value": "You can monitor the state of either arm under LZ_LeapFixer_LeftStateManager and LZ_LeapFixer_RightStateManager\n\nFor convenience, this also saves a RightMotionDetected and LeftMotionDetected parameter that'll switch to 1 whenever the models left or right arm is in motion from tracking, while allowing some buffer time to transition automatically.\n\n(I got left/right mixed up so it's your model's left/right arm from the user's perspective :P )"
+                }
+            ],
+            "posX": 254.66583251953126,
+            "posY": 231.66551208496095,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        }
+    ],
+    "blocks": [
+        {
+            "id": "69d95b5b-05df-4676-a6f9-76878eb50e08",
+            "posX": 479.5390625,
+            "posY": -75.33984375,
+            "sizeX": 985.6336669921875,
+            "sizeY": 466.50006103515627,
+            "title": "Left Leap Motion",
+            "headerColor": 3,
+            "isLocked": true
+        },
+        {
+            "id": "ee37ccbb-e237-439f-818e-ae0bd4428527",
+            "posX": 496.8720703125,
+            "posY": -552.33984375,
+            "sizeX": 952.7955932617188,
+            "sizeY": 479.5001220703125,
+            "title": "Right Leap Motion",
+            "headerColor": 1,
+            "isLocked": true
+        },
+        {
+            "id": "2cae7ceb-f838-413c-9b2b-84823b063358",
+            "posX": -310.0,
+            "posY": -90.138671875,
+            "sizeX": 762.838623046875,
+            "sizeY": 670.0335693359375,
+            "title": "Manage Leap Motion Events",
+            "headerColor": 7,
+            "isLocked": true
+        }
+    ],
+    "connections": [
+        {
+            "id": "e23a4dc9-a9a3-4b9c-8de0-f23f3c3ff213",
+            "outputSocketId": "e65888ee-8146-48fe-ae64-f88001799daf638905386962299377",
+            "inputSocketId": "3fdf132b-8d66-4441-b7a8-94589426ae22638905387181601558"
+        },
+        {
+            "id": "033a4ac4-d3ae-4b83-af87-86f63cdad61d",
+            "outputSocketId": "4950adb6-ddd6-4225-a28e-9aa2d61c1479638905386962299377",
+            "inputSocketId": "3fdf132b-8d66-4441-b7a8-94589426ae22638905387181601558"
+        },
+        {
+            "id": "6092e132-9778-4964-a725-c1c1968ce4c7",
+            "outputSocketId": "c13d3536-a344-48a2-b811-f1a7f76b2a12638905386465927997",
+            "inputSocketId": "00322456-6fdd-4a4f-a816-dc8fabe4f9fd638905386480850913"
+        },
+        {
+            "id": "fa37232f-3b5d-4f54-a883-b6845f54ea43",
+            "outputSocketId": "8742c6a3-69b8-44bd-8e1d-ab384d7a3954638905387637147217",
+            "inputSocketId": "773d4885-f4dc-4698-a46b-dd4b1f6ff81b638905387510969810"
+        },
+        {
+            "id": "cc3d41f9-28b3-410b-83cc-1bc4f8248559",
+            "outputSocketId": "489da6e2-da6b-4eaf-b411-e8489ef1383a638905386226088472",
+            "inputSocketId": "22f0e910-2b09-4ef8-b552-6760ad1eb2be638905386962299377"
+        },
+        {
+            "id": "212d42d5-f476-42e4-9a4e-d63fdbe8b7fa",
+            "outputSocketId": "6989c239-148b-4eeb-9064-9e9bc03e3257638905386226098777",
+            "inputSocketId": "22f0e910-2b09-4ef8-b552-6760ad1eb2be638905386962299377"
+        },
+        {
+            "id": "bbfc63f5-7582-4db4-ae6c-5a6a180681c0",
+            "outputSocketId": "76cb2c1e-4ee8-43be-b299-039d54a820c4638905632524564130",
+            "inputSocketId": "00322456-6fdd-4a4f-a816-dc8fabe4f9fd638905386480850913"
+        },
+        {
+            "id": "416b597d-341c-47f9-94d5-def140b355b9",
+            "outputSocketId": "60593c53-9bae-4e70-8bff-52029081609c638906017206668124",
+            "inputSocketId": "7bb54dab-1350-4e21-abbd-ccde3f32565e638906017206657709"
+        },
+        {
+            "id": "c923d228-21c1-47ce-ae33-95cf55142bd8",
+            "outputSocketId": "a2dfe20f-24ff-455b-b7bc-b6197f39a28f638906017206678460",
+            "inputSocketId": "7bb54dab-1350-4e21-abbd-ccde3f32565e638906017206657709"
+        },
+        {
+            "id": "3284c8a9-0965-4007-a63b-0c947ff3a285",
+            "outputSocketId": "c4064dad-9fc2-466e-a44e-803331a1e24b638906017206657709",
+            "inputSocketId": "2854aa3c-f0bc-4811-af99-d6e288c2a2d3638906017206678460"
+        },
+        {
+            "id": "6fc95127-1922-4d89-8068-37a66b4d14e4",
+            "outputSocketId": "78f70f6b-6f9a-4ae9-849c-f301ac6427d8638906017206657709",
+            "inputSocketId": "2854aa3c-f0bc-4811-af99-d6e288c2a2d3638906017206678460"
+        },
+        {
+            "id": "52e4fbef-645f-4202-ac30-92acf6a4f4d7",
+            "outputSocketId": "d5c83c8b-7027-4e14-8eb8-20039b02b587638906017496742856",
+            "inputSocketId": "2fd306bc-050e-4243-8657-792a6de8ce1a638906017496753137"
+        },
+        {
+            "id": "9ec78ef3-e70b-4964-bfb4-bf3b3875bbc1",
+            "outputSocketId": "c13d3536-a344-48a2-b811-f1a7f76b2a12638905386465927997",
+            "inputSocketId": "2f4ad492-3a41-4423-ba96-5e658c7a7176638905387637147217"
+        },
+        {
+            "id": "60c8caec-5a0d-4a65-bd5c-aa46d17f885e",
+            "outputSocketId": "c13d3536-a344-48a2-b811-f1a7f76b2a12638905386465927997",
+            "inputSocketId": "31374387-d349-4923-8e9d-40b8a4907dae638906017496742856"
+        },
+        {
+            "id": "b79807bf-e044-435b-8cfc-be3cc34c3377",
+            "outputSocketId": "6f2462c1-271b-4d2a-b3f7-5c54769840cc638905386962299377",
+            "inputSocketId": "b64d0b66-06f6-488a-8784-610a91bf54d4638905386226093619"
+        },
+        {
+            "id": "1a398f7f-7a2e-448e-96e4-5f45f0229f77",
+            "outputSocketId": "21d9541a-2ace-4b00-a266-fd3c5afc9a3f638906017206657709",
+            "inputSocketId": "815f220c-481b-47d5-95b3-1cc44ab40cf0638906017206678460"
+        },
+        {
+            "id": "32913837-8c00-46b8-a127-947f48a47d6f",
+            "outputSocketId": "489da6e2-da6b-4eaf-b411-e8489ef1383a638905386226088472",
+            "inputSocketId": "54fa14cb-896f-473e-9903-ee5c7cc40083638906235056820955"
+        },
+        {
+            "id": "170ba4a4-1e1a-49f5-83bf-9c8dd1f4b8a8",
+            "outputSocketId": "6989c239-148b-4eeb-9064-9e9bc03e3257638905386226098777",
+            "inputSocketId": "089ea9e8-8694-40cd-b02c-86c6daa8ea14638906235154483921"
+        },
+        {
+            "id": "6c602999-d34b-4ea4-a1dc-b21009ff3dc9",
+            "outputSocketId": "a2dfe20f-24ff-455b-b7bc-b6197f39a28f638906017206678460",
+            "inputSocketId": "d19388d8-28be-4cc6-9baf-3123f06eafee638906235264962771"
+        },
+        {
+            "id": "25c36f9b-e83a-41e3-8d38-c0acfd71e283",
+            "outputSocketId": "60593c53-9bae-4e70-8bff-52029081609c638906017206668124",
+            "inputSocketId": "dffcc2f7-2c5d-491c-8599-b20dafe37f62638906235557086334"
+        }
+    ],
+    "valueConnections": []
+}
