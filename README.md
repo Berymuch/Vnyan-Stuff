@@ -5,4 +5,4 @@ These are the nodegraphs I've created to support my twitch stream for the Vnyan 
 
 There's A LOT here to unpack- graphs cover things from automation tasks, to user redeems, chat commands, model effects and swapping, and so much more. The vast majority of these nodes will not work out of the box and rely on specific asset files that were not created by me and that I cannot share directly...however, they do give a good idea of the logic required to make everything work.
 
-I'm in the process of documenting everything that's happening here, and it remains under active development. Check back infrequently to grab the latest updates!
+I'm in the process of documenting everything that's happening here, and it remains under active development. Check back infrequently to grab the latest updates and bug fixes!
