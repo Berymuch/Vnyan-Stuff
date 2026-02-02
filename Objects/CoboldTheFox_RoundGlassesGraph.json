@@ -1,0 +1,137 @@
+{
+    "graphName": "CoboldTheFox_AdjustableRoundGlassesGraph",
+    "nodes": [
+        {
+            "id": "10818f87-3a6a-43ba-a2a8-d6ebd9fbdfc1",
+            "values": [
+                {
+                    "key": "hotkey",
+                    "value": "-1"
+                }
+            ],
+            "posX": -238.99996948242188,
+            "posY": 181.33331298828126,
+            "path": "Nodes/HotkeyNode",
+            "inputSocketIds": [],
+            "outputSocketIds": [
+                "c4aff576-8b44-4960-bfa8-362c3fd6ff94638118333777521574"
+            ]
+        },
+        {
+            "id": "6fea4da9-b455-4898-8bcb-dab354d778a1",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "GlassesLensSize"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 19.333328247070314,
+            "posY": 181.33331298828126,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "ba215177-dd4e-4449-9020-b8d822d43969638118333906367325"
+            ],
+            "outputSocketIds": []
+        },
+        {
+            "id": "37552639-8cce-49b9-a09c-353c15717807",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "GlassesArmLength"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 19.333328247070314,
+            "posY": 29.666656494140626,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "75287682-85b8-47e0-a7f7-ef9c83a2ffab638118334039027301"
+            ],
+            "outputSocketIds": []
+        },
+        {
+            "id": "c4244a68-e53e-4412-97e2-414ff48bf6da",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "GlassesArmRotation"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 17.666667938232423,
+            "posY": -120.33333587646485,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "473525eb-7a8d-4a13-849f-16b1dd5104af638118334262941214"
+            ],
+            "outputSocketIds": []
+        },
+        {
+            "id": "4d4ad9e8-547c-428a-830e-802f92a6fcef",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "GlassesWidth"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": 19.333335876464845,
+            "posY": -270.3332824707031,
+            "path": "Nodes/SetParamNode",
+            "inputSocketIds": [
+                "98bfb987-054e-4842-a32e-487e717fab83638118334355281401"
+            ],
+            "outputSocketIds": []
+        },
+        {
+            "id": "29a5bd3b-6fb0-4d39-8351-e4db5da179da",
+            "values": [
+                {
+                    "key": "message",
+                    "value": "Adjustable Round Glasses\nBy Cobold The Fox!\nThanks for supporting me!\n\n\nTo Adjust The Glasses Parameters, change the Parameter values, then right click the Hotkey Node and select \"Send Signal\".\n\nParameters:\n\tGlassesLensSize \n\t\t0 to 1\n\t\tAffects the size of the Lens.\n\n\tGlassesArmLength\n\t\t0 to 1\n\t\tAffects the length of the arms.\n\t\n\tGlassesArmRotation\n\t\t-1 to 1\n\t\tAffects the arms position, can be shut or open wider.\n\t\n\tGlassesWidth\n\t\t0 to 1\n\t\tAffects the spacing between the lenses."
+                }
+            ],
+            "posX": 342.66656494140627,
+            "posY": 99.66632080078125,
+            "path": "Nodes/MessageBoxNode",
+            "inputSocketIds": [],
+            "outputSocketIds": []
+        }
+    ],
+    "connections": [
+        {
+            "id": "0818cdef-a06f-4e95-ad4d-52323a5f89b4",
+            "outputSocketId": "c4aff576-8b44-4960-bfa8-362c3fd6ff94638118333777521574",
+            "inputSocketId": "ba215177-dd4e-4449-9020-b8d822d43969638118333906367325"
+        },
+        {
+            "id": "5c0991f4-75b3-4f28-856e-0d07acb27d0f",
+            "outputSocketId": "c4aff576-8b44-4960-bfa8-362c3fd6ff94638118333777521574",
+            "inputSocketId": "75287682-85b8-47e0-a7f7-ef9c83a2ffab638118334039027301"
+        },
+        {
+            "id": "4141bfed-0238-4098-8097-c44909b5ff14",
+            "outputSocketId": "c4aff576-8b44-4960-bfa8-362c3fd6ff94638118333777521574",
+            "inputSocketId": "473525eb-7a8d-4a13-849f-16b1dd5104af638118334262941214"
+        },
+        {
+            "id": "6348328a-10c9-475e-9121-06a285eeb9b4",
+            "outputSocketId": "c4aff576-8b44-4960-bfa8-362c3fd6ff94638118333777521574",
+            "inputSocketId": "98bfb987-054e-4842-a32e-487e717fab83638118334355281401"
+        }
+    ]
+}
