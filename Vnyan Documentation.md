@@ -5,7 +5,7 @@ Welcome to the web page made for listing all of the nodegraphs/actions provided 
 > [!NOTE]
 > This is a work in progress
 
-PiShock | Commands | Spinning Prizewheel & Chat GPT Integrations | Twitch API
+Placeholder | Placeholder | Placeholder | Placeholder
 :---: | :---: | :---: | :---:
 [Startup & Shortcuts](#Startup-and-Shortcuts) | [Active Interactions](#Active-Interactions) | [Passive Interactions](#Passive-Interactions) | [Chat Commands](#Chat-Commands)
 [Nut Command](#Nut-Command) | [VTuber Logic](#VTuber-Logic) | [PNGTuber Logic](#PNGTuber-Logic) | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking)
