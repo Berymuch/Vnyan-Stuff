@@ -3,27 +3,120 @@
 Welcome to the web page made for listing all of the nodegraphs/actions provided with the Vnyan logic built and maintained by [Berymuch](https://www.twitch.tv/berymuch). All nodegraphs are created by me~ :3
 
 > [!NOTE]
-> Many of the actions in this bot are in active development and also update irregularly. Documentation reflects the latest version of Botymuch.
+> This is a work in progress
 
-*Current Action count: 129*
 PiShock | Commands | Spinning Prizewheel & Chat GPT Integrations | Twitch API
 :---: | :---: | :---: | :---:
-[PiShock - Twitch Interactions](#PiShock---Twitch-Interactions) | [Broadcaster Commands](#Broadcaster-Commands) | [Spinning Prize Wheel](#Spinning-Prize-Wheel) | [Passive OBS Interactions](#Passive-OBS-Interactions)
-[PiShock V2 - Core](#PiShock-V2---Core) | [Chat Command Unit Conversion](#Chat-Command-Unit-Conversion) | [Spinning Prize Wheel - Custom](#Spinning-Prize-Wheel---Custom) | [Redeems](#Redeems)
-[PiShock V2 - Examples](#PiShock-V2---Examples) | [Chat Commands](#Chat-Commands) | [Spinning Prize Wheel - User Group](#Spinning-Prize-Wheel---User-Group) | [Twitch interactions](#Twitch-interactions)
-[PiShock V2 - Operations](#PiShock-V2---Operations) | [Moderator Commands](#Moderator-Commands) | [Mustached_Maniac ChatGPT](#Mustached_Maniac-ChatGPT) | [𝘼𝙋𝙄𝙓 Logging](#𝘼𝙋𝙄𝙓-Logging)
+[Startup & Shortcuts](#Startup-and-Shortcuts) | [Active Interactions](#Active-Interactions) | [Passive Interactions](#Passive-Interactions) | [Chat Commands](#Chat-Commands)
+[Nut Command](#Nut-Command) | [VTuber Logic](#VTuber-Logic) | [PNGTuber Logic](#PNGTuber-Logic) | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking)
+[Controller With Button Tracking](#Controller-With-Button-Tracking) | [Input Animations](#Input-Animations) |  | 
 
 ***
 
-<a name="Broadcaster-Commands"></a>
-## Nodegraph Group
+<a name="Startup-and-Shortcuts"></a>
+## Startup and Shortcuts
 
 Nodegraph Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Active-Interactions"></a>
+## Active Interactions
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Passive-Interactions"></a>
+## Passive Interactions
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Chat-Commands"></a>
+## Chat Commands
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Nut-Command"></a>
+## Nut Command
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="VTuber-Logic"></a>
+## VTuber Logic
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="PNGTuber-Logic"></a>
+## PNGTuber Logic
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Pen-and-Tablet-Tracking"></a>
+## Pen and Tablet Tracking
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Controller-With-Button-Tracking"></a>
+## Controller With Button Tracking
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+
+***
+
+<a name="Input-Animations"></a>
+## Input Animations
+
+Nodegraph Name | GFX | SFX | Parameters | Description
+:--- | :---: | :---: | :--- | :---:
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
