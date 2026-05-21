@@ -16,109 +16,89 @@ Placeholder | Placeholder | Placeholder | Placeholder
 <a name="Startup-and-Shortcuts"></a>
 ## Startup and Shortcuts
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Active-Interactions"></a>
 ## Active Interactions
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Passive-Interactions"></a>
 ## Passive Interactions
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Chat-Commands"></a>
 ## Chat Commands
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Nut-Command"></a>
 ## Nut Command
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="VTuber-Logic"></a>
 ## VTuber Logic
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="PNGTuber-Logic"></a>
 ## PNGTuber Logic
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Pen-and-Tablet-Tracking"></a>
 ## Pen and Tablet Tracking
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Controller-With-Button-Tracking"></a>
 ## Controller With Button Tracking
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
 <a name="Input-Animations"></a>
 ## Input Animations
 
-Nodegraph Name | GFX | SFX | Parameters | Description
+Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock title | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
