@@ -5,11 +5,11 @@ Welcome to the web page made for listing all of the nodegraphs/actions provided 
 > [!NOTE]
 > This is a work in progress
 
-Placeholder | Placeholder | Placeholder | Placeholder
+User Interactions | Input Tracking | Avatar | Commands
 :---: | :---: | :---: | :---:
-[Startup & Shortcuts](#Startup-and-Shortcuts) | [Active Interactions](#Active-Interactions) | [Passive Interactions](#Passive-Interactions) | [Chat Commands](#Chat-Commands)
-[Nut Command](#Nut-Command) | [VTuber Logic](#VTuber-Logic) | [PNGTuber Logic](#PNGTuber-Logic) | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking)
-[Controller With Button Tracking](#Controller-With-Button-Tracking) | [Input Animations](#Input-Animations) |  | 
+[Startup & Shortcuts](#Startup-and-Shortcuts) | [Controller With Button Tracking](#Controller-With-Button-Tracking) | [VTuber Logic](#VTuber-Logic) | [Chat Commands](#Chat-Commands)
+[Passive Interactions](#Passive-Interactions) | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking) | [PNGTuber Logic](#PNGTuber-Logic) | [Nut Command](#Nut-Command)
+[Active Interactions](#Active-Interactions) | [Input Animations](#Input-Animations) |  | 
 
 ***
 
