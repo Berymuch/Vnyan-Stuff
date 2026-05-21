@@ -18,7 +18,11 @@ User Interactions | Input Tracking | Avatar | Commands
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Application Start Commands | 🟩 | 🟥 | Placeholder | Placeholder
+BRB Backrooms | 🟩 | 🟩 | Placeholder | Placeholder
+BRB Clip Shoutouts | 🟩 | 🟥 | Placeholder | Placeholder
+Starting Soon & Ending Screen Scene Swaps | 🟩 | 🟥 | Placeholder | Placeholder
+Camera Websocket Commands | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
@@ -45,7 +49,8 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Roll Dice Command (Subscribers & Regular) | 🟩 | 🟩 | Placeholder | Placeholder
+Pool's Opened & Closed | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
