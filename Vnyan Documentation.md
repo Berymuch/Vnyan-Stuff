@@ -32,6 +32,35 @@ Camera Websocket Commands | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
 Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
@@ -81,6 +110,66 @@ Pool's Opened & Closed | 🟩 | 🟥 | Placeholder | Placeholder
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
 Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+
 
 ***
 
