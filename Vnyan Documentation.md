@@ -68,7 +68,17 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Blendshape Websocket Commands | 🟩 | 🟩 | Placeholder | Placeholder
+Avatar Load Commands | 🟩 | 🟥 | Placeholder | Placeholder
+Prop Loading Commands | 🟩 | 🟥 | Placeholder | Placeholder
+Streamer Mod Alert | 🟩 | 🟥 | Placeholder | Placeholder
+Volume Based Autofocus | 🟥 | 🟥 | Placeholder | Placeholder
+Hat Change | 🟩 | 🟩 | Placeholder | Placeholder
+Sun Glasses | 🟩 | 🟥 | Placeholder | Placeholder
+Third Eye | 🟩 | 🟩 | Placeholder | Placeholder
+Witch Hat | 🟩 | 🟩 | Placeholder | Placeholder
+Teacher Glasses | 🟩 | 🟥 | Placeholder | Placeholder
+VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
 
 ***
 
@@ -77,7 +87,18 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | Placeholder
+PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | Placeholder | Placeholder
+Instructions & Setup | 🟥 | 🟥 | Placeholder | Placeholder
+Websocket Triggers | 🟥 | 🟥 | Placeholder | Placeholder
+Transformation Effect | 🟩 | 🟩 | Placeholder | Placeholder
+Specific PNGTuber Effects | 🟩 | 🟩 | Placeholder | Placeholder
+1PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
+2PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
+3PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
+4PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
+5PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
+6PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
@@ -86,7 +107,9 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | Placeholder | Placeholder
+Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | Placeholder | Placeholder
+Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | Placeholder | Placeholder
 
 ***
 
@@ -95,7 +118,9 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Controller Pose | 🟩 | 🟥 | Placeholder | Placeholder
+Controller Tracking (Right Hand) | 🟥 | 🟥 | Placeholder | Placeholder
+Controller Tracking (Left Hand) | 🟥 | 🟥 | Placeholder | Placeholder
 
 ***
 
@@ -104,6 +129,8 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Input Animations | 🟩 | 🟥 | Placeholder | Placeholder
+Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | Placeholder
+
 
 ***
