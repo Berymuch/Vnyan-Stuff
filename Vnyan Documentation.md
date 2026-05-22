@@ -31,36 +31,28 @@ Camera Websocket Commands | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Amazon'd | 🟩 | 🟩 | Placeholder | Placeholder
+Anvil Drop | 🟩 | 🟩 | Placeholder | Placeholder
+Za Warudo Timer | 🟩 | 🟩 | Placeholder | Placeholder
+The Beans | 🟩 | 🟩 | Placeholder | Placeholder
+Run an Ad! | 🟩 | 🟩 | Placeholder | Placeholder
+Nom | 🟩 | 🟩 | Placeholder | Placeholder
+Build a Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Destroy | 🟩 | 🟩 | Placeholder | Placeholder
+Pets | 🟩 | 🟩 | Placeholder | Placeholder
+Throw | 🟩 | 🟩 | Placeholder | Placeholder
+No Horny | 🟩 | 🟩 | Placeholder | Placeholder
+Munch Speaks! | 🟩 | 🟩 | Placeholder | Placeholder
+Love | 🟩 | 🟥 | Placeholder | Placeholder
+Hydrate | 🟩 | 🟩 | Placeholder | Placeholder
+Goo | 🟩 | 🟩 | Placeholder | Placeholder
+Lightform | 🟩 | 🟩 | Placeholder | Placeholder
+Fuzzy Fact | 🟩 | 🟥 | Placeholder | Placeholder
+Plap | 🟩 | 🟩 | Placeholder | Placeholder
+Xerox | 🟩 | 🟩 | Placeholder | Placeholder
+Tummy Timeout Redeem | 🟩 | 🟩 | Placeholder | Placeholder
+Workout Gacha | 🟩 | 🟥 | Placeholder | Placeholder
+Question | 🟩 | 🟥 | Placeholder | Placeholder
 
 ***
 
