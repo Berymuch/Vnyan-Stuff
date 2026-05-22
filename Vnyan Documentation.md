@@ -40,7 +40,28 @@ Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
+Sub/Chat Message Indicator | 🟩 | 🟩 | Placeholder | Placeholder
+Feed Me Effect | 🟩 | 🟩 | Placeholder | Placeholder
+Walkons | 🟩 | 🟩 | Placeholder | Placeholder
+Headpat | 🟩 | 🟩 | Placeholder | Placeholder
+On Hypetrain | 🟩 | 🟥 | Placeholder | Placeholder
+Goal Celebration | 🟩 | 🟥 | Placeholder | Placeholder
+On Subscription | 🟩 | 🟥 | Placeholder | Placeholder
+Hype Train Events | 🟩 | 🟩 | Placeholder | Placeholder
+Raid & Shoutout Events | 🟩 | 🟩 | Placeholder | Placeholder
+Horny Jail & Bonk | 🟥 | 🟩 | Placeholder | Placeholder
+Wolf Kisser | 🟥 | 🟩 | Placeholder | Placeholder
+Ban User | 🟥 | 🟩 | Placeholder | Placeholder
+Yarr | 🟥 | 🟩 | Placeholder | Placeholder
+Deer Command | 🟩 | 🟩 | Placeholder | Placeholder
+Edge Command | 🟥 | 🟩 | Placeholder | Placeholder
+Scene Lighting Activated | 🟥 | 🟩 | Placeholder | Placeholder
+Emote Dropper | 🟩 | 🟥 | Placeholder | Placeholder
+On Ad Break | 🟩 | 🟩 | Placeholder | Placeholder
+On Follow | 🟩 | 🟥 | Placeholder | Placeholder
+Pyramid 5 Or Higher | 🟩 | 🟥 | Placeholder | Placeholder
+Bits Multiples Effects| 🟩 | 🟩 | Placeholder | Placeholder
+Compare Multiples On Bits Donation | 🟩 | 🟩 | Placeholder | Placeholder
 
 ***
 
