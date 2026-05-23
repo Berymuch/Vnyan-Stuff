@@ -101,67 +101,52 @@ Pool's Opened & Closed | 🟩 | 🟥 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---:
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-Nodeblock Name | 🟩 | 🟥 | Placeholder | Placeholder
-
+Nut Ban & Unban commands | 🟥 | 🟥 | Placeholder | Placeholder
+Nut On/Off Command | 🟥 | 🟥 | Placeholder | Placeholder
+Core Logic | 🟩 | 🟩 | Placeholder | Placeholder
+Grifter Nut | 🟩 | 🟩 | Placeholder | Placeholder
+AerialAbhorsen Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Zementh's 360 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Krowkaws Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Fuscus Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Fist of the North Star Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Win95 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Baby Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Flashbang Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Semphelis Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Loot Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Snow Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Protec Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Spiderverse Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Nutella Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Wolfen_ll Nut | 🟩 | 🟩 | Placeholder | Placeholder
+StevenLucario Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Pickle Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Nice Nut | 🟩 | 🟩 | Placeholder | Placeholder
+400 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+402 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+418 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+SwelterDemon Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Noodle Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Max Damage Nut | 🟩 | 🟩 | Placeholder | Placeholder
+401 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+403 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Pi Nut | 🟩 | 🟩 | Placeholder | Placeholder
+No Clothes Nut | 🟩 | 🟥 | Placeholder | Placeholder
+Jade Save Nut | 🟩 | 🟩 | Placeholder | Placeholder
+RoseEclipz's Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Nut 42 | 🟩 | 🟩 | Placeholder | Placeholder
+Nut 666 | 🟩 | 🟩 | Placeholder | Placeholder
+404 Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Nut 621 | 🟩 | 🟩 | Placeholder | Placeholder
+Grizz Nut 2 (Tornado) | 🟩 | 🟩 | Placeholder | Placeholder
+Tannyk Nut | 🟩 | 🟩 | Placeholder | Placeholder
+TopHatTig Nut | 🟩 | 🟩 | Placeholder | Placeholder
+itzApix Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Lunai Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Sabadar Nut | 🟩 | 🟩 | Placeholder | Placeholder
+TheEarthling Nut | 🟩 | 🟩 | Placeholder | Placeholder
+RiccyThicc Nut | 🟩 | 🟩 | Placeholder | Placeholder
 
 ***
 
