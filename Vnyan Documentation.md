@@ -147,6 +147,7 @@ Lunai Nut | 🟩 | 🟩 | Placeholder | Placeholder
 Sabadar Nut | 🟩 | 🟩 | Placeholder | Placeholder
 TheEarthling Nut | 🟩 | 🟩 | Placeholder | Placeholder
 RiccyThicc Nut | 🟩 | 🟩 | Placeholder | Placeholder
+InkEDoodles Nut | 🟩 | 🟩 | Placeholder | Placeholder
 
 ***
 
