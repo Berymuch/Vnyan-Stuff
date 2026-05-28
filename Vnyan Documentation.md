@@ -22,7 +22,7 @@ Application Start Commands | 🟩 | 🟥 | Various | Runs logic that configures 
 BRB Backrooms | 🟩 | 🟩 | ScreenshotActive, BRBStatus, BRBstatusShout, CameraZoomBRB, TFtransitiontime, CameraFocalLengthBRB | Uses input from a websocket message to swap to a "BRB Screen" type layout. The initial message calls a parameter that is used to switch on/off states for the nodegraph. When on, the logic will load the specified world file, engage looping randomized camera behaviors, send a confirmation message to chat, and toggle various graphical effects and props. When off, these settings are then reverted to the baseline.
 BRB Clip Shoutouts | 🟩 | 🟥 | BRBstatusShout, BRBstatus, wereberyloaded | Uses input from a websocket message to configure a BRB screen tailored shoutout display. The "start" websocket message engages the changes, while the "end" websocket message reverts to the base BRB screen configuration. Locks the camera to a set position while active, and uses a modified camera when the specified vtuber model is active. the starting soon trigger will adapt the current camera to suit whatever model is currently active if the mdoel is changed while the brb player is currently playing. Relies on a spout2 projection prop from a clip player in OBS in order to function.
 Starting Soon & Ending Screen Scene Swaps | 🟩 | 🟥 | StartingSoonSwitch, EndingSceneSwitch | Uses input from a websocket message to swap to a "starting" and/or "ending" type layout. The initial message calls a parameter that is used to switch on/off states for the nodegraph. When on, the logic will load the specified world file, engage camera behaviors, and toggle various graphical effects and props. When off, these settings are then reverted to the baseline.
-Camera Websocket Commands | 🟩 | 🟥 | PNGZoom, pngcamerazoompause | Uses various websocket messages to toggle particularly cameras in vnyan
+Camera Websocket Commands | 🟩 | 🟥 | PNGZoom, pngcamerazoompause | Uses various websocket messages to toggle particularly cameras in vnyan.
 
 ***
 
@@ -30,29 +30,29 @@ Camera Websocket Commands | 🟩 | 🟥 | PNGZoom, pngcamerazoompause | Uses var
 ## Active Interactions
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
-Amazon'd | 🟩 | 🟩 | Placeholder | Placeholder
-Anvil Drop | 🟩 | 🟩 | Placeholder | Placeholder
-Za Warudo Timer | 🟩 | 🟩 | Placeholder | Placeholder
-The Beans | 🟩 | 🟩 | Placeholder | Placeholder
-Run an Ad! | 🟩 | 🟩 | Placeholder | Placeholder
-Nom | 🟩 | 🟩 | Placeholder | Placeholder
-Build a Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Destroy | 🟩 | 🟩 | Placeholder | Placeholder
-Pets | 🟩 | 🟩 | Placeholder | Placeholder
-Throw | 🟩 | 🟩 | Placeholder | Placeholder
-No Horny | 🟩 | 🟩 | Placeholder | Placeholder
-Munch Speaks! | 🟩 | 🟩 | Placeholder | Placeholder
-Love | 🟩 | 🟥 | Placeholder | Placeholder
-Hydrate | 🟩 | 🟩 | Placeholder | Placeholder
-Goo | 🟩 | 🟩 | Placeholder | Placeholder
-Lightform | 🟩 | 🟩 | Placeholder | Placeholder
-Fuzzy Fact | 🟩 | 🟥 | Placeholder | Placeholder
-Plap | 🟩 | 🟩 | Placeholder | Placeholder
-Xerox | 🟩 | 🟩 | Placeholder | Placeholder
-Tummy Timeout Redeem | 🟩 | 🟩 | Placeholder | Placeholder
-Workout Gacha | 🟩 | 🟥 | Placeholder | Placeholder
-Question | 🟩 | 🟥 | Placeholder | Placeholder
+:--- | :---: | :---: | :--- | :---
+Amazon'd | 🟩 | 🟩 | Zawarudokillswitch | When the channel point redeem is used, this logic will drop the specified items and play specified SFX only if the killswitch is not currently active. If it is, the signal is dropped. Also contains generalized logic to trigger a SFX when an item with the itemtag "box" collides with the vtuber model.
+Anvil Drop | 🟩 | 🟩 | Zawarudokillswitch, StunnedExec | Used to drop the specified props on the vtuber model, as well as engage behaviors via baked in parameters on these props. Also modifies bone scaling of specified bones as well as ragdolling the mode and triggering specified SFX.
+Za Warudo Timer | 🟩 | 🟩 | Zawarudokillswitch, NutZawarudokillswitch | When used, this command acts as a general killswitch for all other redeems and various other nodegraph logic trees. Functions include taking a screenshot when the za warudo redeem is engaged and toggling various other GFX and SFX in vnyan. This command also can have aspects of it triggered via websocket messages.
+The Beans | 🟩 | 🟩 | Zawarudokillswitch, CameraLock, StartingSoonSwitch, PNGberyloaded, LightFormActive | Used to engage logic for the beans redeem. When active, it will modify the camera, lock it in place, trigger various GFX and SFX, reset bone scaling to the default value, and toggle various props. Also checks to see if the Starting soon scene is currently active. If so, it will adjust behavior to ensure that the props in that scene are not put into conflict with the logic in either graph.
+Run an Ad! | 🟩 | 🟩 | Zawarudokillswitch | Used to play the specified SFX and GFX when the specified redeem is triggered and if the killswitch is not currently active. Works in tandem with my Redeem logic in StreamerBot.
+Nom | 🟩 | 🟩 | Zawarudokillswitch, PNGberyloaded, wereberyloaded | Used to trigger the specified GFX and SF when the specified channel point redeem is triggered. If a PNGTuber is currently active, the food item will not be spawned and only the SFX will play. If the specified VTuber is active, a larger form of the food wil be spawned instead.
+Build a Nut | 🟩 | 🟩 | VIPNutActive | Used to engage the specified GFX and SFX when the specified channel point redeem is used. This command also integrates with the specified OBS sources and text files to engage further functionality.
+Destroy | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Pets | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Throw | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+No Horny | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Munch Speaks! | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Love | 🟩 | 🟥 | Zawarudokillswitch, redeemer | Used to trigger logic that toggles the specified GFX and SFX if the killswitch is not enabled. Also uses the "redeemer" parameter to set the user's username as part of the dropped chatBlob object.
+Hydrate | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Goo | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Lightform | 🟩 | 🟩 | Zawarudokillswitch, LightFormActive, LightFormBloom, LightFormBloomTransition | Used to trigger the lightform effect when the specified channel point redeem is triggered and activates specified GFX, SFX, and sources in OBS. When activated, the logic triggers a timer loop that increments the LightFormBloomVariable by the specified amount every 100ms. That parameter gradually icnreases the intensity of the bloom effect, and resets to zero/disables once the value of the parameter hits the threshold specified by the LightFormBloomTransitions parameter. Also activates the specified blendshape parameters when used.
+Fuzzy Fact | 🟩 | 🟥 | Zawarudokillswitch | Used to take user input when redeemed and share it via Squawk TTS in chat when set up as an OBS audio source. This command will play the specified SFX, add the user input received when redeemed as a line to the specified file, will read/modify/save the specified array to that file, and is intended to work in tandom with my !fuzzyfact command in streamerbot.The !fuzzyfact command in streamerbot will need to have its execute code modified with any additional lines as they are not automatically appended to the code logic.
+Plap | 🟩 | 🟩 | Zawarudokillswitch, TongueTimer, wereberyloaded | Used to trigger behavior that extends the vtuber's tongue via blendshape value modification, automatically retracts it based on that randomized interval, allows for variation between active vtubers, and can be interfaced with via the "!itsout" chat command in my streamerbot logic through the websocket trigger. Also plays the specified SFX.
+Xerox | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Tummy Timeout Redeem | 🟩 | 🟩 | Zawarudokillswitch | Placeholder
+Workout Gacha | 🟩 | 🟥 | Zawarudokillswitch | Placeholder
+Question | 🟩 | 🟥 | Zawarudokillswitch | Placeholder
 
 ***
 
@@ -60,7 +60,7 @@ Question | 🟩 | 🟥 | Placeholder | Placeholder
 ## Passive Interactions
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Sub/Chat Message Indicator | 🟩 | 🟩 | Placeholder | Placeholder
 Feed Me Effect | 🟩 | 🟩 | Placeholder | Placeholder
 Walkons | 🟩 | 🟩 | Placeholder | Placeholder
@@ -90,7 +90,7 @@ Compare Multiples On Bits Donation | 🟩 | 🟩 | Placeholder | Placeholder
 ## Chat Commands
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Roll Dice Command (Subscribers & Regular) | 🟩 | 🟩 | Placeholder | Placeholder
 Pool's Opened & Closed | 🟩 | 🟥 | Placeholder | Placeholder
 
@@ -100,7 +100,7 @@ Pool's Opened & Closed | 🟩 | 🟥 | Placeholder | Placeholder
 ## Nut Command
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Nut Ban & Unban commands | 🟥 | 🟥 | Placeholder | Placeholder
 Nut On/Off Command | 🟥 | 🟥 | Placeholder | Placeholder
 Core Logic | 🟩 | 🟩 | Placeholder | Placeholder
@@ -155,7 +155,7 @@ InkEDoodles Nut | 🟩 | 🟩 | Placeholder | Placeholder
 ## VTuber Logic
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Blendshape Websocket Commands | 🟩 | 🟩 | Placeholder | Placeholder
 Avatar Load Commands | 🟩 | 🟥 | Placeholder | Placeholder
 Prop Loading Commands | 🟩 | 🟥 | Placeholder | Placeholder
@@ -174,7 +174,7 @@ VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
 ## PNGTuber Logic
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | Placeholder
 PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | Placeholder | Placeholder
 Instructions & Setup | 🟥 | 🟥 | Placeholder | Placeholder
@@ -194,7 +194,7 @@ Specific PNGTuber Effects | 🟩 | 🟩 | Placeholder | Placeholder
 ## Pen and Tablet Tracking
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | Placeholder | Placeholder
 Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | Placeholder | Placeholder
 Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | Placeholder | Placeholder
@@ -205,7 +205,7 @@ Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | Placeholder | Placeholder
 ## Controller With Button Tracking
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Controller Pose | 🟩 | 🟥 | Placeholder | Placeholder
 Controller Tracking (Right Hand) | 🟥 | 🟥 | Placeholder | Placeholder
 Controller Tracking (Left Hand) | 🟥 | 🟥 | Placeholder | Placeholder
@@ -216,7 +216,7 @@ Controller Tracking (Left Hand) | 🟥 | 🟥 | Placeholder | Placeholder
 ## Input Animations
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
+:--- | :---: | :---: | :--- | :---
 Input Animations | 🟩 | 🟥 | Placeholder | Placeholder
 Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | Placeholder
 
