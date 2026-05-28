@@ -17,12 +17,12 @@ User Interactions | Input Tracking | Avatar | Commands
 ## Startup and Shortcuts
 
 Nodeblock Name | GFX | SFX | Parameters | Description
-:--- | :---: | :---: | :--- | :---:
-Application Start Commands | 🟩 | 🟥 | Placeholder | Placeholder
-BRB Backrooms | 🟩 | 🟩 | Placeholder | Placeholder
-BRB Clip Shoutouts | 🟩 | 🟥 | Placeholder | Placeholder
-Starting Soon & Ending Screen Scene Swaps | 🟩 | 🟥 | Placeholder | Placeholder
-Camera Websocket Commands | 🟩 | 🟥 | Placeholder | Placeholder
+:--- | :---: | :---: | :--- | :---
+Application Start Commands | 🟩 | 🟥 | Various | Runs logic that configures aspects of the VNyan setup when the application is started. These include things such as: setting window resolution, loads a specific avatar model file, sets blendshape values, and a plays a looping default idle animation, and configures camera parameters. The biggest aspect of this nodegraph is the parameter values it sets near the bottom. All of these are referenced by various other nodegraphs in my setup, and assume these parameter values as a baseline when Vnyan is launched.
+BRB Backrooms | 🟩 | 🟩 | ScreenshotActive, BRBStatus, BRBstatusShout, CameraZoomBRB, TFtransitiontime, CameraFocalLengthBRB | Uses input from a websocket message to swap to a "BRB Screen" type layout. The initial message calls a parameter that is used to switch on/off states for the nodegraph. When on, the logic will load the specified world file, engage looping randomized camera behaviors, send a confirmation message to chat, and toggle various graphical effects and props. When off, these settings are then reverted to the baseline.
+BRB Clip Shoutouts | 🟩 | 🟥 | BRBstatusShout, BRBstatus, wereberyloaded | Uses input from a websocket message to configure a BRB screen tailored shoutout display. The "start" websocket message engages the changes, while the "end" websocket message reverts to the base BRB screen configuration. Locks the camera to a set position while active, and uses a modified camera when the specified vtuber model is active. the starting soon trigger will adapt the current camera to suit whatever model is currently active if the mdoel is changed while the brb player is currently playing. Relies on a spout2 projection prop from a clip player in OBS in order to function.
+Starting Soon & Ending Screen Scene Swaps | 🟩 | 🟥 | StartingSoonSwitch, EndingSceneSwitch | Uses input from a websocket message to swap to a "starting" and/or "ending" type layout. The initial message calls a parameter that is used to switch on/off states for the nodegraph. When on, the logic will load the specified world file, engage camera behaviors, and toggle various graphical effects and props. When off, these settings are then reverted to the baseline.
+Camera Websocket Commands | 🟩 | 🟥 | PNGZoom, pngcamerazoompause | Uses various websocket messages to toggle particularly cameras in vnyan
 
 ***
 
