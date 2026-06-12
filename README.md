@@ -19,10 +19,10 @@ Latest version:
 
 *REQUIRED:*
 
-0. **Review the provided documentation to see what will be preconfigured when you install any of the nodegraph code.** Links to documentation can be found near the top of this page.
-1.  Placeholder
-2.  Placeholder
-3.  Placeholder
+0. **Review the provided documentation to see what will be preconfigured when you install any of the nodegraph code.** Links to documentation can be found near the top of this page. Be sure to also do the standard setup required when using Vnyan for the first time if applicable.
+1.  In Vnyan, create new nodegraph pages and import the nodegraphs provided on those new pages. This is so you don't overwrite any preexisting configurations you may already have setup.
+2.  The provided logic relies in part on aspects of my Streamerbot code and OBS setup in order to function. Red the descriptions provided with each nodeblock to learn what is required in order for the logic to function as intended.
+3.  Vnyan cameras, positions, props/droppables/ediables/throwables, and more all play a part in various aspects of this logic. If you can't get something working, chances are that I forgot to document any one of inumerable settings. Feel free to reach out to me on Twitch/Discord/Email/etc.! 
 
 *OPTIONAL:*
 
