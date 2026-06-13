@@ -30,4 +30,4 @@ Latest version:
 5.  Placeholder
 6.  Placeholder
 
-All credit for the streamer bot application goes to its devs
+All credit for the Vnyan application goes to its devs
