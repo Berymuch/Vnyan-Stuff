@@ -61,14 +61,14 @@ Question | 🟩 | 🟥 | Zawarudokillswitch, QuestionArrayRange | This command r
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Sub/Chat Message Indicator | 🟩 | 🟩 | Placeholder | Placeholder
-Feed Me Effect | 🟩 | 🟩 | Placeholder | Placeholder
+Sub/Chat Message Indicator | 🟩 | 🟩 | bubblelogicgate | A simple bubble shooter that randomizes the direction and type of bubble generated when a VIP user sends a message in chat. Helps to get your attention.
+Feed Me Effect | 🟩 | 🟩 | Zawarudokillswitch, FeedMeMoar, FeedMeMoar2 | This node group will increment the FeedMeMoar parameter used to increase bone size. It is activated each time your avatar collides with (or eats) a food item. You can link up more bones if you'd like by connecting them to the lower "Param to Decimal" node as shown. Change the value 2 number to be bigger or smaller to increase or decrease the growth increments! You could even use different action nodes to trigger the growth effect, like subs/bits/cheers/etc. (just connect them in place of the food collision node to the right of this message). The FeedMeMoar parameter is automatically set to the default value when you launch Vnyan. It can also be reset using the !bodyreset command while streaming if things glitch/get out of hand. The randomizer plays one of 1 fart effects when this node graph is triggered by anything except for the application startup X3.
 Walkons | 🟩 | 🟩 | Placeholder | Placeholder
 Headpat | 🟩 | 🟩 | Placeholder | Placeholder
 On Hypetrain | 🟩 | 🟥 | Placeholder | Placeholder
-Goal Celebration | 🟩 | 🟥 | Placeholder | Placeholder
-On Subscription | 🟩 | 🟥 | Placeholder | Placeholder
-Hype Train Events | 🟩 | 🟩 | Placeholder | Placeholder
+Goal Celebration | 🟩 | 🟥 |  | Triggers a series of confetti explosions when a goal is completed. Requires my Streamer Bot logic in order to function as intended.
+On Subscription | 🟩 | 🟥 | SubscriptionRainActive | Triggers a screenwide particle effect when a sub is recieved. Disables it after the specified amount of time has passed.
+Hype Train Events | 🟩 | 🟩 | HypeParticleActive | Triggers a screenwide particle effect when a hype train is active. Disables it when the hypetrain ends.
 Raid & Shoutout Events | 🟩 | 🟩 | Placeholder | Placeholder
 Horny Jail & Bonk | 🟥 | 🟩 | Placeholder | Placeholder
 Wolf Kisser | 🟥 | 🟩 | Placeholder | Placeholder
@@ -77,11 +77,11 @@ Yarr | 🟥 | 🟩 | Placeholder | Placeholder
 Deer Command | 🟩 | 🟩 | Placeholder | Placeholder
 Edge Command | 🟥 | 🟩 | Placeholder | Placeholder
 Scene Lighting Activated | 🟥 | 🟩 | Placeholder | Placeholder
-Emote Dropper | 🟩 | 🟥 | Placeholder | Placeholder
-On Ad Break | 🟩 | 🟩 | Placeholder | Placeholder
-On Follow | 🟩 | 🟥 | Placeholder | Placeholder
-Pyramid 5 Or Higher | 🟩 | 🟥 | Placeholder | Placeholder
-Bits Multiples Effects| 🟩 | 🟩 | Placeholder | Placeholder
+Emote Dropper | 🟩 | 🟥 |  | A simple emote dropper that activates whenever an emote is sent in twitch chat.
+On Follow | 🟩 | 🟥 | LightFormActive, RHDrawActive, LHDrawActive, wereberyloaded | Triggers a dancing animation, sets the specified blendshape values, swaps cameras, triggers a particle effect, and toggles certain props if active based off the current vtuber in use when a follow event occurs.
+Pyramid 5 Or Higher | 🟩 | 🟥 |  | Triggers the specified sound effect and prop when an emote pyramid of 5 or higher is triggered.
+Requires my Streamer Bot logic in order to function.
+Bits Multiples Effects| 🟩 | 🟩 |  | Tosses the specified amount of bits donated at the currently active model with the specified throwable. Also factors the amount up to 9 and plays a certain SFX for each valid factor. Bits thrown also have limiter logic in place to help situations where large amounts of bits are cheered and the throwables last an absurd amount of time.
 Compare Multiples On Bits Donation | 🟩 | 🟩 | Placeholder | Placeholder
 
 ***
