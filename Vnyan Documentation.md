@@ -171,18 +171,18 @@ VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Bery Specific Mods/Personalization | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Instructions & Setup | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Websocket Triggers | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Transformation Effect | 🟩 | 🟩 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Specific PNGTuber Effects | 🟩 | 🟩 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-1PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-2PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-3PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-4PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-5PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-6PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Bery Specific Mods/Personalization | 🟩 | 🟥 | See nodegraph comments. | See nodegraph comments.
+PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 |  | 
+Instructions & Setup | 🟥 | 🟥 |  | 
+Websocket Triggers | 🟥 | 🟥 |  | 
+Transformation Effect | 🟩 | 🟩 |  | 
+Specific PNGTuber Effects | 🟩 | 🟩 |  | 
+1PNGTuber Graphic States | 🟩 | 🟥 |  | 
+2PNGTuber Graphic States | 🟩 | 🟥 |  | 
+3PNGTuber Graphic States | 🟩 | 🟥 |  | 
+4PNGTuber Graphic States | 🟩 | 🟥 |  | 
+5PNGTuber Graphic States | 🟩 | 🟥 |  | 
+6PNGTuber Graphic States | 🟩 | 🟥 |  | 
 
 ***
 
@@ -191,9 +191,9 @@ Specific PNGTuber Effects | 🟩 | 🟩 | See comments on the associated nodegra
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
-Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | See nodegraph comments. | See nodegraph comments.
+Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 |  | 
+Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 |  | 
 
 ***
 
