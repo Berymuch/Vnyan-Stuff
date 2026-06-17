@@ -202,9 +202,9 @@ Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 |  |
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See comments on the associated nodegraph nodeblock message.
-Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | See comments on the associated nodegraph nodeblock message.
-Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | See comments on the associated nodegraph nodeblock message.
+Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See nodegraph comments.
+Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | 
+Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | 
 
 ***
 
@@ -213,8 +213,7 @@ Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControlle
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See comments on the associated nodegraph nodeblock message.
-Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | See comments on the associated nodegraph nodeblock message.
-
+Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See nodegraph comments.
+Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | 
 
 ***
