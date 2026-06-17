@@ -1,6 +1,6 @@
 # Vnyan-Stuff
 > [!NOTE]
-> Various assets I've created for the [Vnyan application](https://suvidriel.itch.io/vnyan/purchase) by Suvidriel.
+> Below are various assets I've created for the [Vnyan application](https://suvidriel.itch.io/vnyan/purchase) by Suvidriel. Enjoy!
 
 Nodegraph Documentation | Dropable Assets | Edible Assets | Object Assets | Sound Assets | Throwable Assets | Bubbles Assets
 :-: | :-: | :-: | :-: | :-: | :-: | :-:
