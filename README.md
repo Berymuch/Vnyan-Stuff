@@ -1,6 +1,6 @@
 # Vnyan-Stuff
 > [!NOTE]
-> Various assets I've created for the Vnyan application by Suvidriel. Documentation is a massive WIP
+> Various assets I've created for the [Vnyan application](https://suvidriel.itch.io/vnyan/purchase) by Suvidriel. Documentation is a massive WIP
 
 Nodegraph Documentation | Dropable Assets | Edible Assets | Object Assets | Sound Assets | Throwable Assets | Bubbles Assets
 :-: | :-: | :-: | :-: | :-: | :-: | :-:
@@ -21,13 +21,12 @@ Latest version:
 
 0. **Review the provided documentation to see what will be preconfigured when you install any of the nodegraph code.** Links to documentation can be found near the top of this page. Be sure to also do the standard setup required when using Vnyan for the first time if applicable.
 1.  In Vnyan, create new nodegraph pages and import the nodegraphs provided on those new pages. This is so you don't overwrite any preexisting configurations you may already have setup.
-2.  The provided logic relies in part on aspects of my Streamerbot code and OBS setup in order to function. Red the descriptions provided with each nodeblock to learn what is required in order for the logic to function as intended.
-3.  Vnyan cameras, positions, props/droppables/ediables/throwables, and more all play a part in various aspects of this logic. If you can't get something working, chances are that I forgot to document any one of inumerable settings. Feel free to reach out to me on Twitch/Discord/Email/etc.! 
+2.  The provided logic relies in part on aspects of my Streamerbot code and OBS setup in order to function. Read the descriptions provided with each nodeblock to learn what is required in order for the logic to function as intended.
+3.  Vnyan cameras, positions, props/droppables/ediables/throwables, and more all play a part in various aspects of this logic. If you can't get something working, chances are that I forgot to document any one of inumerable settings. Feel free to reach out to me on Twitch/Discord/Email/etc.!
 
 *OPTIONAL:*
 
-4.  Placeholder
-5.  Placeholder
-6.  Placeholder
+4.  Certain props rely on spout2 capture/settings to be active in order to function intended. These can usually be identified when they are meant to show data cast from OBS. You can configure Spout2 propr in vnyan by clicking on the "Load From File" drop down menu when adding a prop
+5.  When centering props on your model, remember to use the provided gizmo in vnyan! You can enable this by clicking the "Transform Mode" drop down when in your prop menu.
 
-All credit for the Vnyan application goes to its devs
+All credit for the [Vnyan application](https://suvidriel.itch.io/vnyan/purchase) goes to its developers.
