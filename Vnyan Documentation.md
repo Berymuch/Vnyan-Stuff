@@ -171,18 +171,18 @@ VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Instructions & Setup | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Websocket Triggers | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Transformation Effect | 🟩 | 🟩 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Specific PNGTuber Effects | 🟩 | 🟩 | Placeholder | See comments on the associated nodegraph nodeblock message.
-1PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-2PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-3PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-4PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-5PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-6PNGTuber Graphic States | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
+Bery Specific Mods/Personalization | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Instructions & Setup | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Websocket Triggers | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Transformation Effect | 🟩 | 🟩 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Specific PNGTuber Effects | 🟩 | 🟩 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+1PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+2PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+3PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+4PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+5PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+6PNGTuber Graphic States | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
 
 ***
 
@@ -191,9 +191,9 @@ Specific PNGTuber Effects | 🟩 | 🟩 | Placeholder | See comments on the asso
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
+Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
+Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | See comments on the associated nodegraph nodeblock message. | See comments on the associated nodegraph nodeblock message.
 
 ***
 
@@ -202,9 +202,9 @@ Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | Placeholder | See comments on t
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Controller Pose | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Controller Tracking (Right Hand) | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Controller Tracking (Left Hand) | 🟥 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
+Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See comments on the associated nodegraph nodeblock message.
+Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | See comments on the associated nodegraph nodeblock message.
+Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | See comments on the associated nodegraph nodeblock message.
 
 ***
 
@@ -213,8 +213,8 @@ Controller Tracking (Left Hand) | 🟥 | 🟥 | Placeholder | See comments on th
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Input Animations | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
-Bery Specific Mods/Personalization | 🟩 | 🟥 | Placeholder | See comments on the associated nodegraph nodeblock message.
+Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See comments on the associated nodegraph nodeblock message.
+Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | See comments on the associated nodegraph nodeblock message.
 
 
 ***
