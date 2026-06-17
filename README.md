@@ -26,7 +26,7 @@ Latest version:
 
 *OPTIONAL:*
 
-4.  Certain props rely on spout2 capture/settings to be active in order to function intended. These can usually be identified when they are meant to show data cast from OBS. You can configure Spout2 propr in vnyan by clicking on the "Load From File" drop down menu when adding a prop
+4.  Certain props rely on spout2 capture/settings to be active in order to function intended. These can usually be identified when they are meant to show data cast from OBS. You can configure Spout2 props in vnyan by clicking on the "Load From File" drop down menu when adding a prop
 5.  When centering props on your model, remember to use the provided gizmo in vnyan! You can enable this by clicking the "Transform Mode" drop down when in your prop menu.
 
 All credit for the [Vnyan application](https://suvidriel.itch.io/vnyan/purchase) goes to its developers.
