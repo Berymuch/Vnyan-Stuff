@@ -191,9 +191,10 @@ Specific PNGTuber Effects | 🟩 | 🟩 |  |
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | See nodegraph comments. | See nodegraph comments.
-Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 |  | 
-Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 |  | 
+Pen/Mouse Tracking for Drawing Streams | 🟩 | 🟥 | RHDrawActive, LMRightDrawActive, MouseX, RightDrawActive, RHLeapMotionPause, LHDrawActive, LMLeftDrawActive, MouseY, LHLeapMotionPause | This allows your model's hand and arm to track your tablet strokes as you draw, supports both left and right handed drawing setups, AND also allows you to still use leap motion hand tracking! See nodegraph comments for more details and additional setup instructions.
+Pen Tracking (Right Hand Enabled) | 🟥 | 🟥 | RHDrawActive, RightDrawActive, [RHLeapMotionPause], [MouseY], [MouseX], RUpperX, RUpperY, RUpperZ, RShoulderX, RshoulderY, RshoulderZ | This part of the nodegraph logic will be active with a right handed drawing setup.
+Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 | LHDrawActive, LeftDrawActive, [LHLeapMotionPause], [MouseY], [MouseX], LUpperX, LUpperY, LUpperZ, LShoulderX, LshoulderY, LshoulderZ | This part of the nodegraph logic will be active with a left handed drawing setup.
+Vtuber Model Check Module | 🟩 | 🟥 | RHDrawActive, wereberyloaded, LHDrawActive | This is used to activate/deactivate different props based on the currently active model.
 
 ***
 
@@ -202,9 +203,9 @@ Pen Tracking (Left Hand Enabled) | 🟥 | 🟥 |  |
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See nodegraph comments.
-Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | 
-Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | 
+Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See nodegraph comments for more details and additional setup instructions.
+Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | This part of the nodegraph logic controls activity on the right side of your controller.
+Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | This part of the nodegraph logic controls activity on the left side of your controller.
 
 ***
 
@@ -213,7 +214,7 @@ Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControlle
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See nodegraph comments.
-Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | 
+Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See nodegraph comments for more details and additional setup instructions.
+Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | A bit of example logic to show how you can modify the nodegraph to achieve various things. 
 
 ***
