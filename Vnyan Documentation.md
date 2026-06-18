@@ -155,13 +155,13 @@ Nodeblock Name | GFX | SFX | Parameters | Description
 Blendshape Websocket Commands | 🟩 | 🟩 |  | Used to control various aspects of my VTuber using websocket input via my streamdeck.
 Avatar Load Commands | 🟩 | 🟥 | FeedMeMoar, FeedMeMoar2, StartingSoonSwitch | Controls logic that triggers whenever an avatar is loaded.
 Prop Loading Commands | 🟩 | 🟥 | issmoking | Websocket Commands used to load props and triggered by my streamdeck.
-Streamer Mod Alert | 🟩 | 🟥 | PNGberyloaded | Used to toggle an alert asset meant to get my attention (if a mod needs me ASAP for instance). Requires my Streamerbot logic in order to function as intended.
-Hat Change | 🟩 | 🟩 | Zawarudokillswitch, HatActive, wereberyloaded, <HatText> | Placeholder
-Sun Glasses | 🟩 | 🟥 | ShadesActive, wereberyloaded | Placeholder
-Third Eye | 🟩 | 🟩 | ThirdEyeActive, wereberyloaded | Placeholder
-Witch Hat | 🟩 | 🟩 | WitchActive, wereberyloaded, EndingSceneSwitch | Placeholder
-Teacher Glasses | 🟩 | 🟥 | TeacherGlassesActive, wereberyloaded, GlassesWidth, GlassesArmRotation, GlassesLensSize, GlassesArmLength | Placeholder
-VTuber Swaps | 🟩 | 🟩 | PNGberyloaded, wereberyloaded,  | Placeholder
+Streamer Mod Alert | 🟩 | 🟥 | PNGberyloaded, Stickybg | Used to toggle an alert asset meant to get my attention (if a mod needs me ASAP for instance). Requires my Streamerbot logic in order to function as intended.
+Hat Change | 🟩 | 🟩 | Zawarudokillswitch, HatActive, wereberyloaded, HatText | Controls logic that triggers whenever my hat is activated via chat command. the text following the command is set to a variable on the specified prop and appears visually on the hat. Also triggers different hats based on the currently active model.
+Sun Glasses | 🟩 | 🟥 | ShadesActive, wereberyloaded | Controls logic that triggers whenever my shades are activated. Also triggers differently based on the currently active model.
+Third Eye | 🟩 | 🟩 | ThirdEyeActive, wereberyloaded | Controls logic that triggers whenever my third eye is activated via chat command. Also triggers different hats based on the currently active model.
+Witch Hat | 🟩 | 🟩 | WitchActive, wereberyloaded, EndingSceneSwitch | Controls logic that triggers whenever my witch costume is activated. Also triggers different hats based on the currently active model, and displays slightly different visual effects depending on whether or not the ending scene is currently active.
+Teacher Glasses | 🟩 | 🟥 | TeacherGlassesActive, wereberyloaded, GlassesWidth, GlassesArmRotation, GlassesLensSize, GlassesArmLength | Controls logic that triggers whenever my glasses are activated via chat command. You can adjust the dimensions of the glasses using the specified parameter values. Also triggers different glasses based on the currently active model.
+VTuber Swaps | 🟩 | 🟩 | PNGberyloaded, wereberyloaded | Controls logic that triggers and interacts with switching models, both PNGTuber and Vtuber. The provided channel point redeem is meant to be used to swap between two different VTuber states and trigger the appropriate versions of props and effects. This logic also allows you to freely swap between an active PNGTuber and VTuber effortlessly when using my PNGTuber Nodegraph logic
 
 ***
 
