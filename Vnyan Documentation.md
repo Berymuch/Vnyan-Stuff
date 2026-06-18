@@ -152,17 +152,16 @@ InkEDoodles Nut | 🟩 | 🟩 | Placeholder | Placeholder
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Blendshape Websocket Commands | 🟩 | 🟩 | Placeholder | Placeholder
-Avatar Load Commands | 🟩 | 🟥 | Placeholder | Placeholder
-Prop Loading Commands | 🟩 | 🟥 | Placeholder | Placeholder
-Streamer Mod Alert | 🟩 | 🟥 | Placeholder | Placeholder
-Volume Based Autofocus | 🟥 | 🟥 | Placeholder | Placeholder
-Hat Change | 🟩 | 🟩 | Placeholder | Placeholder
-Sun Glasses | 🟩 | 🟥 | Placeholder | Placeholder
-Third Eye | 🟩 | 🟩 | Placeholder | Placeholder
-Witch Hat | 🟩 | 🟩 | Placeholder | Placeholder
-Teacher Glasses | 🟩 | 🟥 | Placeholder | Placeholder
-VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
+Blendshape Websocket Commands | 🟩 | 🟩 |  | Used to control various aspects of my VTuber using websocket input via my streamdeck.
+Avatar Load Commands | 🟩 | 🟥 | FeedMeMoar, FeedMeMoar2, StartingSoonSwitch | Controls logic that triggers whenever an avatar is loaded.
+Prop Loading Commands | 🟩 | 🟥 | issmoking | Websocket Commands used to load props and triggered by my streamdeck.
+Streamer Mod Alert | 🟩 | 🟥 | PNGberyloaded | Used to toggle an alert asset meant to get my attention (if a mod needs me ASAP for instance). Requires my Streamerbot logic in order to function as intended.
+Hat Change | 🟩 | 🟩 | Zawarudokillswitch, HatActive, wereberyloaded, <HatText> | Placeholder
+Sun Glasses | 🟩 | 🟥 | ShadesActive, wereberyloaded | Placeholder
+Third Eye | 🟩 | 🟩 | ThirdEyeActive, wereberyloaded | Placeholder
+Witch Hat | 🟩 | 🟩 | WitchActive, wereberyloaded, EndingSceneSwitch | Placeholder
+Teacher Glasses | 🟩 | 🟥 | TeacherGlassesActive, wereberyloaded, GlassesWidth, GlassesArmRotation, GlassesLensSize, GlassesArmLength | Placeholder
+VTuber Swaps | 🟩 | 🟩 | PNGberyloaded, wereberyloaded,  | Placeholder
 
 ***
 
