@@ -218,7 +218,7 @@ Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControlle
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| See nodegraph comments for more details and additional setup instructions.
+Input Animations | 🟩 | 🟥 | [_gamepadleftx], [_gamepadlefty], [_gamepadrightx], [_gamepadrighty], ActivateControls, AnimActive, IsRunning, RunningInterrupt, [AvatarMovementX], [AvatarRotationX], [AvatarMovementY], [AvatarRotationY]| Controls how the nodegraph logic calculates and translates your button presses into animations. See nodegraph comments for more details and additional setup instructions.
 Bery Specific Mods/Personalization | 🟩 | 🟥 | PNGberyloaded | A bit of example logic to show how you can modify the nodegraph to achieve various things. 
 
 ***
