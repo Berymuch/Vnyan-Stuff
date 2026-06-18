@@ -1,15 +1,11 @@
 # NODEGRAPH ACTION LIST
 
-Welcome to the web page made for listing all of the nodegraphs/actions provided with the Vnyan logic built and maintained by [Berymuch](https://www.twitch.tv/berymuch). All nodegraphs are created by me~ :3
+A listing of all the nodegraphs/actions provided with the Vnyan logic built and maintained by [Berymuch](https://www.twitch.tv/berymuch).
 
-> [!NOTE]
-> This is a work in progress
-
-User Interactions | Input Tracking | Avatar | Commands
-:---: | :---: | :---: | :---:
-[Startup & Shortcuts](#Startup-and-Shortcuts) | [Controller With Button Tracking](#Controller-With-Button-Tracking) | [VTuber Logic](#VTuber-Logic) | [Chat Commands](#Chat-Commands)
-[Passive Interactions](#Passive-Interactions) | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking) | [PNGTuber Logic](#PNGTuber-Logic) | [Nut Command](#Nut-Command)
-[Active Interactions](#Active-Interactions) | [Input Animations](#Input-Animations) |  | 
+Startup & Shortcuts | Input Tracking | Avatar | Commands | User Interactions | Animations
+:---: | :---: | :---: | :---: | :---: | :---:
+[Startup & Shortcuts](#Startup-and-Shortcuts) | [Controller With Button Tracking](#Controller-With-Button-Tracking) | [VTuber Logic](#VTuber-Logic) | [Chat Commands](#Chat-Commands) | [Passive Interactions](#Passive-Interactions) | [Input Animations](#Input-Animations)
+| | [Pen and Tablet Tracking](#Pen-and-Tablet-Tracking) | [PNGTuber Logic](#PNGTuber-Logic) | [Nut Command](#Nut-Command) | [Active Interactions](#Active-Interactions) | 
 
 ***
 
