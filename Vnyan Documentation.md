@@ -207,7 +207,7 @@ Vtuber Model Check Module | 🟩 | 🟥 | RHDrawActive, wereberyloaded, LHDrawAc
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | See nodegraph comments for more details and additional setup instructions.
+Controller Pose | 🟩 | 🟥 | RHControllerActive, LHControllerActive, RightControllerActive, LeftControllerActive, LMRightControllerActive, LMLeftControllerActive, RHControllerLeapMotionPause, LHControllerLeapMotionPause | Controls how the nodegraph logic translates button presses tino hand animations. Requires a controller connected to your PC in order to use and also requires the vnyan controller tracking service to be running in the background (you need to turn this on in settings). See nodegraph comments for more details and additional setup instructions.
 Controller Tracking (Right Hand) | 🟥 | 🟥 | RHControllerActive, [RHControllerLeapMotionPause] | This part of the nodegraph logic controls activity on the right side of your controller.
 Controller Tracking (Left Hand) | 🟥 | 🟥 | LHControllerActive, [LHControllerLeapMotionPause] | This part of the nodegraph logic controls activity on the left side of your controller.
 
