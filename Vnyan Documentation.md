@@ -88,7 +88,7 @@ Compare Multiples On Bits Donation | 🟩 | 🟩 |  | Tosses the specified amoun
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Roll Dice Command (Subscribers & Regular) | 🟩 | 🟩 | Zawarudokillswitch, DiceFaces, DiceAmount, RollDiceResult, RollDiceValue, RollDiceMultiple, ThrowDiceAmount, ThrowDiceFaces, BasicDiceFaces, BasicDiceAmount, BasicRollDiceResult, BasicRollDiceValue | The basic dice roll command randomizes output between 1 and the range defined by: [BasicDiceAmount] x [BasicDiceFaces]. This simplification can result in impossible results and functions as an approximation. The premium command randomizes and adds together dice of the specified type until the input amount is reached and returns a far more accurate result (while also including logic to allow for thrown objects).
-Pool's Opened & Closed | 🟩 | 🟥 |  | Triggers the specified Sassets when the command is triggered by the broadcaster.
+Pool's Opened & Closed | 🟩 | 🟥 |  | Triggers the specified assets when the command is triggered by the broadcaster.
 
 ***
 
