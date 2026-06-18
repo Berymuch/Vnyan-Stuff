@@ -172,11 +172,11 @@ VTuber Swaps | 🟩 | 🟩 | Placeholder | Placeholder
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Bery Specific Mods/Personalization | 🟩 | 🟥 | EndingSceneSwitch, PNGberyloaded, wereberyloaded | A bit of example logic to show how you can modify the nodegraph to achieve various things. 
-PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | PNGZoom, PNGberyloaded, isspeaking, isblinking, DuplicateCheck, ScreenshotActive, TFtransitiontime, PNGCameraZoomPause | See nodegraph comments for more details and additional setup instructions.
-Instructions & Setup | 🟥 | 🟥 | PNGberyloaded, PNGTuberBlinksRandomizer | See nodegraph comments for more details and additional setup instructions.
+PNGTuber Core Logic (No Touchy) | 🟥 | 🟥 | PNGZoom, PNGberyloaded, isspeaking, isblinking, DuplicateCheck, ScreenshotActive, TFtransitiontime, PNGCameraZoomPause | This is the brains of the entire PNGTuber nodegraph and is responsible for running the various calculations. See nodegraph comments for more details and additional setup instructions.
+Instructions & Setup | 🟥 | 🟥 | PNGberyloaded, PNGTuberBlinksRandomizer | This is required in order to perform the initial setup of the PNGTuber Logic. See nodegraph comments for more details and additional setup instructions.
 Websocket Triggers (PNGTubers 1-6) | 🟥 | 🟥 | PNGberyloaded | Controls specific effects when PNGTubers 1-6 are currently active. See nodegraph comments for more details and additional setup instructions.
 Websocket Triggers (PNGTubers 7-12) | 🟥 | 🟥 | PNGberyloaded | Controls specific effects when PNGTubers 7-12 are currently active. See nodegraph comments for more details and additional setup instructions.
-Transformation Effect | 🟩 | 🟩 | TFtransitiontime | See nodegraph comments for more details and additional setup instructions.
+Transformation Effect | 🟩 | 🟩 | TFtransitiontime | Controls the animation effect triggered when swapping PNGTubers and models. See nodegraph comments for more details and additional setup instructions.
 Specific PNGTuber Effects (PNGTubers 1-6) | 🟩 | 🟩 | PNGberyloaded | Controls specific effects when PNGTubers 1-6 are currently active. See nodegraph comments for more details and additional setup instructions.
 Specific PNGTuber Effects (PNGTubers 7-12) | 🟩 | 🟩 | PNGberyloaded | Controls specific effects when PNGTubers 7-12 are currently active. See nodegraph comments for more details and additional setup instructions.
 1PNGTuber Graphic States | 🟩 | 🟥 | PNGberyloaded | See nodegraph comments for more details and additional setup instructions.
