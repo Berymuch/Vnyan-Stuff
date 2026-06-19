@@ -1,4 +1,4 @@
-# NODEGRAPH ACTION LIST
+# NODEGRAPH DOCUMENTATION
 
 A listing of all the nodegraphs/actions provided with the Vnyan logic built and maintained by [Berymuch](https://www.twitch.tv/berymuch).
 
