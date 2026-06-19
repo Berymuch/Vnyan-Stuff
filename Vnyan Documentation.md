@@ -93,9 +93,9 @@ Pool's Opened & Closed | 🟩 | 🟥 |  | Triggers the specified assets when the
 
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
-Nut Ban & Unban commands | 🟥 | 🟥 | Placeholder | Placeholder
-Nut On/Off Command | 🟥 | 🟥 | Placeholder | Placeholder
-Core Logic | 🟩 | 🟩 | Placeholder | Placeholder
+Nut Ban & Unban commands | 🟥 | 🟥 | NutBanArray, NutUnbanIndex | This logic allows you to ban and unban specific usernames from engaging with the chat command in the event of abuse. Usernames are case senstive and are entered after the command, and the array of specified usernames is stored in the text file specified. You will need to specify this textfile filepath manually using the 4 nodes below if you want to use this feature. The format is: !nutban username, !nb username, !nutunban username, !nub username
+Nut On/Off Command | 🟥 | 🟥 | NutZawarudokillswitch, nutpauseswitch | Used to disable and enable nut commands. Requires my streamerbot logic to function as intended.
+Core Logic | 🟩 | 🟩 | NutZawarudokillswitch, VIPNutActive, nutpauseswitch, NutCommandDisplayName, nutforce, nutscale, nuttoss, NutBanArray | The core Nut command is at the start of the chain. Each Parameter filter acts as a numerical gateway for more specific results based off numeric input with the core command.To add a new nut redeem and tie it to a specific number, create a parameter filter and follow the prescribed parameter structure. Once done, connect the gateway parameter filter to the second output in the ordered execution node below. Have fun!
 Grifter Nut | 🟩 | 🟩 | Placeholder | Placeholder
 AerialAbhorsen Nut | 🟩 | 🟩 | Placeholder | Placeholder
 Zementh's 360 Nut | 🟩 | 🟩 | Placeholder | Placeholder
