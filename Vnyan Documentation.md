@@ -96,50 +96,50 @@ Nodeblock Name | GFX | SFX | Parameters | Description
 Nut Ban & Unban commands | 🟥 | 🟥 | NutBanArray, NutUnbanIndex | This logic allows you to ban and unban specific usernames from engaging with the chat command in the event of abuse. Usernames are case senstive and are entered after the command, and the array of specified usernames is stored in the text file specified. You will need to specify this textfile filepath manually using the 4 nodes below if you want to use this feature. The format is: !nutban username, !nb username, !nutunban username, !nub username
 Nut On/Off Command | 🟥 | 🟥 | NutZawarudokillswitch, nutpauseswitch | Used to disable and enable nut commands. Requires my streamerbot logic to function as intended.
 Core Logic | 🟩 | 🟩 | NutZawarudokillswitch, VIPNutActive, nutpauseswitch, NutCommandDisplayName, nutforce, nutscale, nuttoss, NutBanArray | The core Nut command is at the start of the chain. Each Parameter filter acts as a numerical gateway for more specific results based off numeric input with the core command.To add a new nut redeem and tie it to a specific number, create a parameter filter and follow the prescribed parameter structure. Once done, connect the gateway parameter filter to the second output in the ordered execution node below. Have fun!
-Grifter Nut | 🟩 | 🟩 | Placeholder | Placeholder
-AerialAbhorsen Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Zementh's 360 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Krowkaws Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Fuscus Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Fist of the North Star Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Win95 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Baby Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Flashbang Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Semphelis Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Loot Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Snow Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Protec Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Spiderverse Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Nutella Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Wolfen_ll Nut | 🟩 | 🟩 | Placeholder | Placeholder
-StevenLucario Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Pickle Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Nice Nut | 🟩 | 🟩 | Placeholder | Placeholder
-400 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-402 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-418 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-SwelterDemon Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Noodle Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Max Damage Nut | 🟩 | 🟩 | Placeholder | Placeholder
-401 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-403 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Pi Nut | 🟩 | 🟩 | Placeholder | Placeholder
-No Clothes Nut | 🟩 | 🟥 | Placeholder | Placeholder
-Jade Save Nut | 🟩 | 🟩 | Placeholder | Placeholder
-RoseEclipz's Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Nut 42 | 🟩 | 🟩 | Placeholder | Placeholder
-Nut 666 | 🟩 | 🟩 | Placeholder | Placeholder
-404 Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Nut 621 | 🟩 | 🟩 | Placeholder | Placeholder
-Grizz Nut 2 (Tornado) | 🟩 | 🟩 | Placeholder | Placeholder
-Tannyk Nut | 🟩 | 🟩 | Placeholder | Placeholder
-TopHatTig Nut | 🟩 | 🟩 | Placeholder | Placeholder
-itzApix Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Lunai Nut | 🟩 | 🟩 | Placeholder | Placeholder
-Sabadar Nut | 🟩 | 🟩 | Placeholder | Placeholder
-TheEarthling Nut | 🟩 | 🟩 | Placeholder | Placeholder
-RiccyThicc Nut | 🟩 | 🟩 | Placeholder | Placeholder
-InkEDoodles Nut | 🟩 | 🟩 | Placeholder | Placeholder
+Grifter Nut | 🟩 | 🟩 | nuttoss, wolfstarcooldown, LightFormActive | Triggers an electrocution-like effect by splashing water to simulate sparks, repeatedly flinshing your model, and  using various GFX to give the impression of being zapped by blue electricity! In the event the lightform redeem is currently active when this nut is used, the bloom effect is disabled to prevent eyestrain.
+AerialAbhorsen Nut | 🟩 | 🟩 | nuttoss, handbellcounter, Handbellscaling | Triggers a series of bells to be flung at the model with randomized sizes, delay, and sound effect.
+Zementh's 360 Nut | 🟩 | 🟩 | nuttoss | Drops the specified object on the model and ragdolls the model while playing the associated SFX.
+Krowkaws Nut | 🟩 | 🟩 | nuttoss, PNGberyloaded, BRBstatus, wolfstarcooldown | Launches the model upwards and switches the camera to one itnended to be looking up at the feet to give the illusion of the model flying away perfectly into the center of the sky. Once the model passes the render diistance in vnyan, a sparkle/graphical prop is activated. The model and camera rest to their regular positions afterwards. Works in tandem with me start screen and BRB screen logic to circumvent some graphical issues caused by this interaction.
+Fuscus Nut | 🟩 | 🟩 | nuttoss, PNGberyloaded, FuscusNutTimer | Plays a SFX, displays the specified prop over the models head, then plays another SFX and shrinks the model's head bone and ragdolls it to give the illusion of a head shot. The head bone is reset to normal shortly afterwards.
+Fist of the North Star Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Win95 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Baby Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Flashbang Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Semphelis Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Loot Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Snow Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Protec Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Spiderverse Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Nutella Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Wolfen_ll Nut | 🟩 | 🟩 | nuttoss | Placeholder
+StevenLucario Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Pickle Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Nice Nut | 🟩 | 🟩 | nuttoss | Placeholder
+400 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+402 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+418 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+SwelterDemon Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Noodle Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Max Damage Nut | 🟩 | 🟩 | nuttoss | Placeholder
+401 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+403 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Pi Nut | 🟩 | 🟩 | nuttoss | Placeholder
+No Clothes Nut | 🟩 | 🟥 | nuttoss | Placeholder
+Jade Save Nut | 🟩 | 🟩 | nuttoss | Placeholder
+RoseEclipz's Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Nut 42 | 🟩 | 🟩 | nuttoss | Placeholder
+Nut 666 | 🟩 | 🟩 | nuttoss | Placeholder
+404 Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Nut 621 | 🟩 | 🟩 | nuttoss | Placeholder
+Grizz Nut 2 (Tornado) | 🟩 | 🟩 | nuttoss | Placeholder
+Tannyk Nut | 🟩 | 🟩 | nuttoss | Placeholder
+TopHatTig Nut | 🟩 | 🟩 | nuttoss | Placeholder
+itzApix Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Lunai Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Sabadar Nut | 🟩 | 🟩 | nuttoss | Placeholder
+TheEarthling Nut | 🟩 | 🟩 | nuttoss | Placeholder
+RiccyThicc Nut | 🟩 | 🟩 | nuttoss | Placeholder
+InkEDoodles Nut | 🟩 | 🟩 | nuttoss | Placeholder
 
 ***
 
