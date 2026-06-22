@@ -101,11 +101,11 @@ AerialAbhorsen Nut | 🟩 | 🟩 | nuttoss, handbellcounter, Handbellscaling | T
 Zementh's 360 Nut | 🟩 | 🟩 | nuttoss | Drops the specified object on the model and ragdolls the model while playing the associated SFX.
 Krowkaws Nut | 🟩 | 🟩 | nuttoss, PNGberyloaded, BRBstatus, wolfstarcooldown | Launches the model upwards and switches the camera to one itnended to be looking up at the feet to give the illusion of the model flying away perfectly into the center of the sky. Once the model passes the render diistance in vnyan, a sparkle/graphical prop is activated. The model and camera rest to their regular positions afterwards. Works in tandem with me start screen and BRB screen logic to circumvent some graphical issues caused by this interaction.
 Fuscus Nut | 🟩 | 🟩 | nuttoss, PNGberyloaded, FuscusNutTimer | Plays a SFX, displays the specified prop over the models head, then plays another SFX and shrinks the model's head bone and ragdolls it to give the illusion of a head shot. The head bone is reset to normal shortly afterwards.
-Fist of the North Star Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Win95 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Baby Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Flashbang Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Semphelis Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Fist of the North Star Nut | 🟩 | 🟩 | nuttoss, nutpauseswitch, naninutbonescale, naninutbonescale2, naninutbonescale3, naninutbonescale4, naninutbonescale5, naninutbonescale6 | Triggers a Fist of the North star type effect by randomly modifying the sizes of the specified model bones. Also disables other nuts from being activated when in effect.
+Win95 Nut | 🟩 | 🟩 | nuttoss, GrizzNutTimer | Displays a prop and activates the associated SFX. If the command is already active, also sends a message to chat informing that no further grizz nuts can be activated until the current one is finished.
+Baby Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+Flashbang Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX. Also ragdolls the active model when hit by the thrown item spawned and activates certain graphical effects.
+Semphelis Nut | 🟩 | 🟩 | nuttoss, FireworkRaidAmount, RaidFireworksFirefliesRandom, RaidFireworksParam, RaidFireworksTimerRandomizer, FireworkSize, FireworkSoundRandomizer, FireworkWhistleSoundRandomizer | This is a spicy one. The idea is that it launches a specified number of fireworks, with various levels of randomization involved to ensure each firework command is a bit different. can be spammed to fun effect! Requires the specified custom objects to be used in order to run as intended.
 Loot Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Snow Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Protec Nut | 🟩 | 🟩 | nuttoss | Placeholder
