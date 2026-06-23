@@ -106,7 +106,7 @@ Win95 Nut | 🟩 | 🟩 | nuttoss, GrizzNutTimer | Displays a prop and activates
 Baby Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
 Flashbang Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX. Also ragdolls the active model when hit by the thrown item spawned and activates certain graphical effects.
 Semphelis Nut | 🟩 | 🟩 | nuttoss, FireworkRaidAmount, RaidFireworksFirefliesRandom, RaidFireworksParam, RaidFireworksTimerRandomizer, FireworkSize, FireworkSoundRandomizer, FireworkWhistleSoundRandomizer | This is a spicy one. The idea is that it launches a specified number of fireworks, with various levels of randomization involved to ensure each firework command is a bit different. can be spammed to fun effect! Requires the specified custom objects to be used in order to run as intended.
-Loot Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Loot Nut | 🟩 | 🟩 | nuttoss, deeznutssacksize | Throws the specified throw items at the active model and plays the specified SFX.
 Snow Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Protec Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Spiderverse Nut | 🟩 | 🟩 | nuttoss | Placeholder
