@@ -107,18 +107,18 @@ Baby Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the activ
 Flashbang Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX. Also ragdolls the active model when hit by the thrown item spawned and activates certain graphical effects.
 Semphelis Nut | 🟩 | 🟩 | nuttoss, FireworkRaidAmount, RaidFireworksFirefliesRandom, RaidFireworksParam, RaidFireworksTimerRandomizer, FireworkSize, FireworkSoundRandomizer, FireworkWhistleSoundRandomizer | This is a spicy one. The idea is that it launches a specified number of fireworks, with various levels of randomization involved to ensure each firework command is a bit different. can be spammed to fun effect! Requires the specified custom objects to be used in order to run as intended.
 Loot Nut | 🟩 | 🟩 | nuttoss, deeznutssacksize | Throws the specified throw items at the active model and plays the specified SFX.
-Snow Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Protec Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Spiderverse Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Nutella Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Wolfen_ll Nut | 🟩 | 🟩 | nuttoss | Placeholder
-StevenLucario Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Pickle Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Nice Nut | 🟩 | 🟩 | nuttoss | Placeholder
-400 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-402 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-418 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-SwelterDemon Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Snow Nut | 🟩 | 🟩 | nuttoss, Nut32Active, EndingSceneSwitch, HypeParticleActive | Throws the specified throw items at the active model and plays the specified SFX. Also triggers particles effect tied to the hypetrain passive interaction and engages various graphical effects.
+Protec Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+Spiderverse Nut | 🟩 | 🟩 | nuttoss, Spiderverseactive, EndingSceneSwitch, LightFormActive | Throws the specified throw items at the active model and plays the specified SFX. Also triggers graphical effects tied to the lightform redeem and engages various graphical effects.
+Nutella Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+Wolfen_ll Nut | 🟩 | 🟩 | nuttoss, Wolfenlickscycler | Activates the specified prop and plays the specified SFX.
+StevenLucario Nut | 🟩 | 🟩 | nuttoss, Stevensuckscycler | Activates the specified prop and plays the specified SFX.
+Pickle Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+Nice Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+400 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+402 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+418 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+SwelterDemon Nut | 🟩 | 🟩 | nuttoss, pauseswelterdemonpawdrop, PNGberyloaded, swelterdemonpawdrop | Drops a custom object specified on to the active model by incrementally transforming it's y coordinate location. Also times modelbone modification to coincide with the impact and flatten it, and updates the model position to match the new location.
 Noodle Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Max Damage Nut | 🟩 | 🟩 | nuttoss | Placeholder
 401 Nut | 🟩 | 🟩 | nuttoss | Placeholder
