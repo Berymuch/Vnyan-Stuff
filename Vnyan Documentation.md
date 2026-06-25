@@ -119,13 +119,13 @@ Nice Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the sp
 402 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
 418 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
 SwelterDemon Nut | 🟩 | 🟩 | nuttoss, pauseswelterdemonpawdrop, PNGberyloaded, swelterdemonpawdrop | Drops a custom object specified on to the active model by incrementally transforming it's y coordinate location. Also times modelbone modification to coincide with the impact and flatten it, and updates the model position to match the new location.
-Noodle Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Max Damage Nut | 🟩 | 🟩 | nuttoss | Placeholder
-401 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-403 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Pi Nut | 🟩 | 🟩 | nuttoss | Placeholder
-No Clothes Nut | 🟩 | 🟥 | nuttoss | Placeholder
-Jade Save Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Noodle Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+Max Damage Nut | 🟩 | 🟩 | nuttoss, nutforce, nutscale | Throws the specified throw items at the active model and plays the specified SFX. Also adjusts parameters of the tossed nut to affect size and impact force.
+401 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+403 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+Pi Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
+No Clothes Nut | 🟩 | 🟥 | nuttoss, Zawarudokillswitch | Activates the specified blendshape values, throwable prop, and SFX.
+Jade Save Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
 RoseEclipz's Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Nut 42 | 🟩 | 🟩 | nuttoss | Placeholder
 Nut 666 | 🟩 | 🟩 | nuttoss | Placeholder
