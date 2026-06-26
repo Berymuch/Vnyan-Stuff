@@ -132,8 +132,8 @@ Nut 666 | 🟩 | 🟩 | nuttoss, LightFormActive | Triggers the specified SFX an
 404 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
 Nut 621 | 🟩 | 🟩 | nuttoss, PNGberyloaded, nut621pixeltimer | Triggers the specified SFX and also specific GFX, and also interracts with the vnyan pixelation filter to give a fun censoring effect. Additional logic is present in the eventthe currently active pngtuber is the second one (On my setup, I use this one with a default pixelation effect of it's own).
 Grizz Nut 2 (Tornado) | 🟩 | 🟩 | nuttoss, GrizzTornadoActive, HydrateActive | Another fun one! This one works by applying small increments of force to the currently active model to give it the illusion of blowing away in a gust of wind. The effect is slight randomized each time and can be modified by tweaking the add force node values. Also triggers the specified particle effect slot and SFX. In my setup I reuse the particle slot for my hydration redeem, and so additional logic is also included to ensure the two do not conflict.
-Tannyk Nut | 🟩 | 🟩 | nuttoss | Placeholder
-TopHatTig Nut | 🟩 | 🟩 | nuttoss | Placeholder
+Tannyk Nut | 🟩 | 🟩 | nuttoss, 1994NutTimerActive | Throw the specified objects and triggers the specified SFX. Also checks to see if the nut is currently running to avoid overlap, and sends an error message to chat if so.
+TopHatTig Nut | 🟩 | 🟩 | nuttoss, TigNutTimerActive | This one requires the usage of a specific prop available on my github due to hard coded parameters in the prop file itself. Also checks to see if the command is already running and pauses it if so while sending an error message to chat. When using the appropriate prop, a christmas tree is spawned under the active model after a delay and some SFX which launches the active model off to the left. The lights of the christmas tree prop can be configured to suit your tastes based off the information provided above.
 itzApix Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Lunai Nut | 🟩 | 🟩 | nuttoss | Placeholder
 Sabadar Nut | 🟩 | 🟩 | nuttoss | Placeholder
