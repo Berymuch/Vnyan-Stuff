@@ -126,12 +126,12 @@ Max Damage Nut | 🟩 | 🟩 | nuttoss, nutforce, nutscale | Throws the specifie
 Pi Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
 No Clothes Nut | 🟩 | 🟥 | nuttoss, Zawarudokillswitch | Activates the specified blendshape values, throwable prop, and SFX.
 Jade Save Nut | 🟩 | 🟩 | nuttoss | Throws the specified throw items at the active model and plays the specified SFX.
-RoseEclipz's Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Nut 42 | 🟩 | 🟩 | nuttoss | Placeholder
-Nut 666 | 🟩 | 🟩 | nuttoss | Placeholder
-404 Nut | 🟩 | 🟩 | nuttoss | Placeholder
-Nut 621 | 🟩 | 🟩 | nuttoss | Placeholder
-Grizz Nut 2 (Tornado) | 🟩 | 🟩 | nuttoss | Placeholder
+RoseEclipz's Nut | 🟩 | 🟩 | nuttoss, roseplapcounter, roseplapcounter2 | A different method of handling countup events to synchronize actions. Tosses 5 of the specified object, then rests a counter, then starts another counter loop for a seperate object that also triggers a SFX and ragdolls the current model.
+Nut 42 | 🟩 | 🟩 | nuttoss, LightFormActive | Triggers the specified SFX and also specific GFX.
+Nut 666 | 🟩 | 🟩 | nuttoss, LightFormActive | Triggers the specified SFX and also specific GFX, and also interracts with the specified filters in OBS if you have configured them (I use the flame effect from the OBS Shaderfilter plugin). Also toggles the specified blendshapes for the currently active model.
+404 Nut | 🟩 | 🟩 | nuttoss | Activates the specified prop and plays the specified SFX.
+Nut 621 | 🟩 | 🟩 | nuttoss, PNGberyloaded, nut621pixeltimer | Triggers the specified SFX and also specific GFX, and also interracts with the vnyan pixelation filter to give a fun censoring effect. Additional logic is present in the eventthe currently active pngtuber is the second one (On my setup, I use this one with a default pixelation effect of it's own).
+Grizz Nut 2 (Tornado) | 🟩 | 🟩 | nuttoss, GrizzTornadoActive, HydrateActive | Another fun one! This one works by applying small increments of force to the currently active model to give it the illusion of blowing away in a gust of wind. The effect is slight randomized each time and can be modified by tweaking the add force node values. Also triggers the specified particle effect slot and SFX. In my setup I reuse the particle slot for my hydration redeem, and so additional logic is also included to ensure the two do not conflict.
 Tannyk Nut | 🟩 | 🟩 | nuttoss | Placeholder
 TopHatTig Nut | 🟩 | 🟩 | nuttoss | Placeholder
 itzApix Nut | 🟩 | 🟩 | nuttoss | Placeholder
