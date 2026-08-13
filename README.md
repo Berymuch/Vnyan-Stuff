@@ -16,7 +16,7 @@ Nodegraph Documentation | Dropable Assets | Edible Assets | Object Assets | Soun
 Latest version:
 [Nodegraphs](https://github.com/Berymuch/Vnyan-Stuff/tree/main/Nodegraphs)
 
-In order for the "Active Interactions", "Chat Commands", "Vtuber Logic", & "Nut Command" nodegraphs to function as intended, my Streamer Bot logic is required. This is due to SB's ability to intelligently filter users and allow for the ability to prevent spammers from using redeems without affecting everyone else.
+In order for the "Active Interactions", "Chat Commands", "Vtuber Logic", & "Nut Command" nodegraphs to function as intended, my [Streamer Bot logic](https://github.com/Berymuch/Streamer.Bot) is required. This is due to SB's ability to intelligently filter users and allow for the ability to prevent spammers from using redeems without affecting everyone else.
 ***
 
 *REQUIRED:*
