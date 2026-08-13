@@ -24,7 +24,7 @@ Camera Websocket Commands | 🟩 | 🟥 | PNGZoom, pngcamerazoompause | Uses var
 
 <a name="Active-Interactions"></a>
 ## Active Interactions
-
+My [Streamer Bot logic](https://github.com/Berymuch/Streamer.Bot) is required for these nodegraphs to function as intended.
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Amazon'd | 🟩 | 🟩 | Zawarudokillswitch | When the channel point redeem is used, this logic will drop the specified items and play specified SFX only if the killswitch is not currently active. If it is, the signal is dropped. Also contains generalized logic to trigger a SFX when an item with the itemtag "box" collides with the vtuber model.
@@ -80,7 +80,7 @@ Compare Multiples On Bits Donation | 🟩 | 🟩 |  | Tosses the specified amoun
 
 <a name="Chat-Commands"></a>
 ## Chat Commands
-
+My [Streamer Bot logic](https://github.com/Berymuch/Streamer.Bot) is required for these nodegraphs to function as intended.
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Roll Dice Command (Subscribers & Regular) | 🟩 | 🟩 | Zawarudokillswitch, DiceFaces, DiceAmount, RollDiceResult, RollDiceValue, RollDiceMultiple, ThrowDiceAmount, ThrowDiceFaces, BasicDiceFaces, BasicDiceAmount, BasicRollDiceResult, BasicRollDiceValue | The basic dice roll command randomizes output between 1 and the range defined by: [BasicDiceAmount] x [BasicDiceFaces]. This simplification can result in impossible results and functions as an approximation. The premium command randomizes and adds together dice of the specified type until the input amount is reached and returns a far more accurate result (while also including logic to allow for thrown objects).
@@ -90,7 +90,7 @@ Pool's Opened & Closed | 🟩 | 🟥 |  | Triggers the specified assets when the
 
 <a name="Nut-Command"></a>
 ## Nut Command
-
+My [Streamer Bot logic](https://github.com/Berymuch/Streamer.Bot) is required for these nodegraphs to function as intended.
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Nut Ban & Unban commands | 🟥 | 🟥 | NutBanArray, NutUnbanIndex | This logic allows you to ban and unban specific usernames from engaging with the chat command in the event of abuse. Usernames are case senstive and are entered after the command, and the array of specified usernames is stored in the text file specified. You will need to specify this textfile filepath manually using the 4 nodes below if you want to use this feature. The format is: !nutban username, !nb username, !nutunban username, !nub username
@@ -147,7 +147,7 @@ Kodai Ryu Flaming Book Nut | 🟩 | 🟩 | | This will drop the specified droppa
 
 <a name="VTuber-Logic"></a>
 ## VTuber Logic
-
+My [Streamer Bot logic](https://github.com/Berymuch/Streamer.Bot) is required for these nodegraphs to function as intended.
 Nodeblock Name | GFX | SFX | Parameters | Description
 :--- | :---: | :---: | :--- | :---
 Blendshape Websocket Commands | 🟩 | 🟩 |  | Used to control various aspects of my VTuber using websocket input via my streamdeck.
